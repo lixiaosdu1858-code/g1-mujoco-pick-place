@@ -1,0 +1,162 @@
+{
+  "status": "source_equivalence_passed",
+  "physics_steps": 0,
+  "files": [
+    {
+      "file": "build_elbow_scene.py",
+      "original_sha256": "81a477999a84138b6e40b86f9cde6d5b3887a540489b02818da47ce5db25dd7c",
+      "package_sha256": "81a477999a84138b6e40b86f9cde6d5b3887a540489b02818da47ce5db25dd7c",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "build_shoulder_elbow_scene.py",
+      "original_sha256": "4ac66933fa3d42a3cd39e797c9b1584a403c508ff6b8d4ac5c51b3d0d5793b3a",
+      "package_sha256": "4ac66933fa3d42a3cd39e797c9b1584a403c508ff6b8d4ac5c51b3d0d5793b3a",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "carry_route.py",
+      "original_sha256": "001b07ed4215c7f15a1e675a63eaccd6c36e2068c7907324d5132aa684e3464b",
+      "package_sha256": "001b07ed4215c7f15a1e675a63eaccd6c36e2068c7907324d5132aa684e3464b",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "carry_runtime.py",
+      "original_sha256": "ea1cf9fef6ccad27569f59cfa7ccfa2550692fa82022c7f99036a47bef0cdd66",
+      "package_sha256": "ea1cf9fef6ccad27569f59cfa7ccfa2550692fa82022c7f99036a47bef0cdd66",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "carry_to_tray.py",
+      "original_sha256": "6b0d00b2d0289f8385d09b279ee372b49b39fbcbe0109196c7c0ce935d4c47a7",
+      "package_sha256": "6b0d00b2d0289f8385d09b279ee372b49b39fbcbe0109196c7c0ce935d4c47a7",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "cartesian_keyboard.py",
+      "original_sha256": "210d1b3b04a128d5a834084ffa707ba632784e061edf663fdb9170b13859e7a2",
+      "package_sha256": "210d1b3b04a128d5a834084ffa707ba632784e061edf663fdb9170b13859e7a2",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "cartesian_keyboard_target.py",
+      "original_sha256": "5f32bc948b14931d77475aa328e7d6faf71a20a5e238d9ea0c5f8bde856a44e2",
+      "package_sha256": "4eac37383ddee5c63d848e988683ff3ebec4efb7167aa3f798d092ccddc2b707",
+      "scope": "all_functions_and_classes_identical_except_",
+      "checked_symbols": [
+        "TargetPlanner",
+        "load_initial_pose",
+        "prepare",
+        "prepare_initial_pose"
+      ]
+    },
+    {
+      "file": "centered_grasp_lift.py",
+      "original_sha256": "d2efe01fd7b61c16204d0717b7039a6bfc771c5c5dc1f5d11c7933bd2a8a0597",
+      "package_sha256": "d2efe01fd7b61c16204d0717b7039a6bfc771c5c5dc1f5d11c7933bd2a8a0597",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "grasp_contact_geometry.py",
+      "original_sha256": "1b7fc0f9c693d9ce553ec59fee7bca3648ff3fc9d2d6b5bb1a3140f882973698",
+      "package_sha256": "1b7fc0f9c693d9ce553ec59fee7bca3648ff3fc9d2d6b5bb1a3140f882973698",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "grasp_lift.py",
+      "original_sha256": "e67c78380949e4e770e9d45d61ec722fdd2a1b3cc5ad979975b3642312c2ab6b",
+      "package_sha256": "e67c78380949e4e770e9d45d61ec722fdd2a1b3cc5ad979975b3642312c2ab6b",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "grasp_solver_compare.py",
+      "original_sha256": "34afb69d22b91550b2221ccee804ea63ba20fd907804771cacc291d0bc108400",
+      "package_sha256": "34afb69d22b91550b2221ccee804ea63ba20fd907804771cacc291d0bc108400",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "grasp_solver_runtime.py",
+      "original_sha256": "89ec954720fb8fb2079ea15a0b3dc480795270b2e441eaeaf7e090d73d191eda",
+      "package_sha256": "89ec954720fb8fb2079ea15a0b3dc480795270b2e441eaeaf7e090d73d191eda",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "ik_bounded_step.py",
+      "original_sha256": "149c618ca2e9228fb70cb134b648b0ad26e5f336103550e7e1cc44a6b1d6c1fb",
+      "package_sha256": "149c618ca2e9228fb70cb134b648b0ad26e5f336103550e7e1cc44a6b1d6c1fb",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "ik_seed_compare.py",
+      "original_sha256": "19dc8cd1ef655dba5562b73ece656ec95937a2236a29e4b621a1fced823ab565",
+      "package_sha256": "19dc8cd1ef655dba5562b73ece656ec95937a2236a29e4b621a1fced823ab565",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "lesson_common.py",
+      "original_sha256": "2cb41ceafec5d22d7ec3381ec34731c146833915137b07fd25916d35fc25d3ae",
+      "package_sha256": "2271bdef3e9f91311745e24f38a7731a6c5e9bcdb9da91c9b57835cbcc01e29a",
+      "scope": "storage_guard_and_root_adapter_only"
+    },
+    {
+      "file": "manual_jog_input.py",
+      "original_sha256": "29b8c0dc97a99302130118d7f5b49066eb00bb1ed8160d1c0c3652720478e34b",
+      "package_sha256": "29b8c0dc97a99302130118d7f5b49066eb00bb1ed8160d1c0c3652720478e34b",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "manual_pickplace.py",
+      "original_sha256": "6260d6ff468cd257060b694197c28835514ed1b22232b4bc22578fcce223f725",
+      "package_sha256": "126c96746adc10daa3c7d4d9288e7e4232d46d401f1421d35f4c6fad1c5f0a67",
+      "scope": "all_functions_and_classes_identical_except_main,setup",
+      "checked_symbols": [
+        "ManualSession",
+        "completion",
+        "input_hint",
+        "inspect",
+        "observe_task",
+        "ready_valid",
+        "run",
+        "sample",
+        "update_scene"
+      ]
+    },
+    {
+      "file": "manual_task_checks.py",
+      "original_sha256": "947533f8b34c3f63d5c54195905723775a72364b9608f8695345e1a72671310e",
+      "package_sha256": "947533f8b34c3f63d5c54195905723775a72364b9608f8695345e1a72671310e",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "manual_task_observer.py",
+      "original_sha256": "711adb0c7e2badd02d4fcc1d3e0ff77401641a81a0a4afdd6b560f336b4c298a",
+      "package_sha256": "711adb0c7e2badd02d4fcc1d3e0ff77401641a81a0a4afdd6b560f336b4c298a",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "manual_task_target.py",
+      "original_sha256": "7fa550c02914af872e55bb659b3df60c5eb0fefdc90fd3191747bc970280abdb",
+      "package_sha256": "7fa550c02914af872e55bb659b3df60c5eb0fefdc90fd3191747bc970280abdb",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "pickplace_layout_preview.py",
+      "original_sha256": "4f0131ab191560908207a5f2f3ff8d6b192a85c272448465739c75118c636ebe",
+      "package_sha256": "4f0131ab191560908207a5f2f3ff8d6b192a85c272448465739c75118c636ebe",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "reachable_motion.py",
+      "original_sha256": "e71ffe3d283fc178cf574db3bb7093fbc0739dda1664ad6fc89efc6d6c8702bf",
+      "package_sha256": "e71ffe3d283fc178cf574db3bb7093fbc0739dda1664ad6fc89efc6d6c8702bf",
+      "scope": "entire_file_identical"
+    },
+    {
+      "file": "reachable_pose_preview.py",
+      "original_sha256": "598bcb68d0b171a842d6d0417244fd57dd555fd707f29954d0634f94f78de7eb",
+      "package_sha256": "598bcb68d0b171a842d6d0417244fd57dd555fd707f29954d0634f94f78de7eb",
+      "scope": "entire_file_identical"
+    }
+  ],
+  "changed_scope": "Portable setup, file roots/storage guard, snapshot/output bookkeeping; unchanged runtime control, planner methods, scoring and input logic."
+}

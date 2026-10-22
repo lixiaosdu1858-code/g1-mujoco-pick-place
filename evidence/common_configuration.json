@@ -1,0 +1,271 @@
+{
+  "record_type": "shared_configuration_extract",
+  "same_in_three_original_runs": true,
+  "field_count": 24,
+  "mujoco_version": "3.3.7",
+  "numpy_version": "2.3.5",
+  "dt_s": 0.004,
+  "noslip_iterations": 3,
+  "effective_solver_options": {
+    "ccd_iterations": 35,
+    "ccd_tolerance": 1E-06,
+    "cone": 0,
+    "density": 0.0,
+    "disableactuator": 0,
+    "disableflags": 0,
+    "enableflags": 0,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "impratio": 1.0,
+    "integrator": 3,
+    "iterations": 100,
+    "jacobian": 2,
+    "ls_iterations": 50,
+    "ls_tolerance": 0.01,
+    "magnetic": [
+      0.0,
+      -0.5,
+      0.0
+    ],
+    "noslip_iterations": 3,
+    "noslip_tolerance": 1E-06,
+    "o_friction": [
+      1.0,
+      1.0,
+      0.005,
+      0.0001,
+      0.0001
+    ],
+    "o_margin": 0.0,
+    "o_solimp": [
+      0.9,
+      0.95,
+      0.001,
+      0.5,
+      2.0
+    ],
+    "o_solref": [
+      0.02,
+      1.0
+    ],
+    "sdf_initpoints": 40,
+    "sdf_iterations": 10,
+    "solver": 2,
+    "timestep": 0.004,
+    "tolerance": 1E-08,
+    "viscosity": 0.0,
+    "wind": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "thresholds": {
+    "minimum_lift_m": 0.02,
+    "maximum_relative_slip_m": 0.005,
+    "maximum_relative_rotation_rad": 0.1,
+    "minimum_finger_normal_n": 0.3,
+    "hold_s": 2.0,
+    "contact_stable_s": 0.25,
+    "max_hold_cube_speed_m_s": 0.02,
+    "max_hold_cube_angular_speed_rad_s": 0.2,
+    "position_warning_m": 0.003,
+    "orientation_warning_rad": 0.05,
+    "position_stop_m": 0.015,
+    "orientation_stop_rad": 0.12,
+    "max_joint_error_rad": 0.15,
+    "max_joint_speed_rad_s": 2.0,
+    "max_finger_speed_m_s": 0.25,
+    "min_finger_table_gap_m": 0.0005,
+    "maximum_simulation_s": 420.0,
+    "maximum_physics_wall_s": 900.0,
+    "maximum_wait_phase_s": 45.0,
+    "ready_arm_speed_rad_s": 0.05,
+    "ready_finger_speed_m_s": 0.01,
+    "ready_finger_error_m": 0.003,
+    "ready_stable_s": 0.25,
+    "settling_timeout_s": 5.0
+  },
+  "placement_thresholds": {
+    "hold_s": 2.0,
+    "evaluation_window_s": 3.0,
+    "minimum_tray_xy_margin_m": 0.002,
+    "minimum_floor_normal_n": 0.1,
+    "minimum_floor_clearance_m": -0.001,
+    "maximum_floor_clearance_m": 0.002,
+    "minimum_finger_cube_distance_m": 0.003,
+    "maximum_cube_speed_m_s": 0.02,
+    "maximum_cube_angular_speed_rad_s": 0.2,
+    "maximum_wait_phase_s": 45.0,
+    "opening_duration_s": 2.0,
+    "minimum_release_floor_clearance_m": 0.002,
+    "release_settle_minimum_s": 1.0,
+    "release_settle_timeout_s": 3.0,
+    "release_settle_stable_s": 0.25
+  },
+  "kp": [
+    120.0,
+    100.0,
+    80.0,
+    60.0,
+    40.0,
+    30.0,
+    30.0,
+    600.0,
+    600.0
+  ],
+  "kd": [
+    8.0,
+    7.0,
+    5.0,
+    4.0,
+    2.5,
+    2.0,
+    2.0,
+    8.0,
+    8.0
+  ],
+  "software_caps": [
+    12.0,
+    12.0,
+    10.0,
+    8.0,
+    6.0,
+    3.0,
+    3.0,
+    4.0,
+    4.0
+  ],
+  "initial_qpos": [
+    -0.7024653553213133,
+    -0.5730631094387038,
+    -0.6941401030898114,
+    0.6755982153407619,
+    -1.0554993590673116,
+    1.1128062836247814,
+    1.1653887890399983,
+    0.0245,
+    0.0245,
+    0.30488779752892353,
+    -0.39107907626493915,
+    0.7480249223303501,
+    0.9914448613738104,
+    0.0,
+    0.0,
+    -0.13052619222005157
+  ],
+  "initial_qvel": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "planner_settings": {
+    "maximum_delta_m": 0.005,
+    "position_tolerance_m": 5E-05,
+    "orientation_tolerance_rad": 0.0005,
+    "path_orientation_tolerance_rad": 0.05,
+    "path_line_deviation_m": 0.001,
+    "arm_margin_rad": 0.03,
+    "minimum_environment_gap_m": 0.003,
+    "maximum_arm_reference_speed_rad_s": 0.5,
+    "maximum_finger_reference_speed_m_s": 0.035,
+    "maximum_static_gravity_to_cap": 0.7,
+    "motion_duration_s": 1.0,
+    "finger_duration_s": 2.0,
+    "ik_iterations": 20,
+    "qp_iterations": 128,
+    "ik_step_bound_rad": 0.05,
+    "damping": 1E-06,
+    "orientation_weight_m": 0.15,
+    "backtracking_scales": 8,
+    "workspace_min_offset_from_B_m": [
+      -0.02,
+      -0.02,
+      0.0
+    ],
+    "workspace_max_offset_from_B_m": [
+      0.12,
+      0.175,
+      0.09
+    ],
+    "minimum_payload_gap_m": 0.003,
+    "minimum_finger_table_gap_m": 0.001,
+    "cube_support_penetration_tolerance_m": 0.0002,
+    "minimum_payload_floor_gap_m": 0.004,
+    "minimum_open_payload_floor_gap_m": 0.002,
+    "jog_maximum_delta_m": 0.0015,
+    "jog_duration_s": 0.12,
+    "support_escape_monotonic_tolerance_m": 1E-07
+  },
+  "anchor_position_world_m": [
+    0.29554099193710537,
+    -0.38857460725480075,
+    0.8439571203617681
+  ],
+  "target_fixed_orientation_wxyz": [
+    0.8361761150778139,
+    0.070131671958836,
+    0.5327029357136195,
+    -0.11008467397291995
+  ],
+  "table_top_z_m": 0.7280249223303501,
+  "tray_floor_z_m": 0.7360249223303501,
+  "tray_rim_z_m": 0.7660249223303501,
+  "tray_center_xy_m": [
+    0.39510717803346457,
+    -0.24321288329882687
+  ],
+  "tray_inner_half_xy_m": [
+    0.07,
+    0.07
+  ],
+  "gripper_input_mode": "latest_intent_at_segment_boundary_no_task_milestone_lock",
+  "task_scoring_mode": "physical_observer_v2_independent_of_input_permission",
+  "input_mode": "foreground_hold_to_jog",
+  "manual_initialization": {
+    "q_ref9": [
+      -0.7024653553213133,
+      -0.5730631094387038,
+      -0.6941401030898114,
+      0.6755982153407619,
+      -1.0554993590673116,
+      1.1128062836247814,
+      1.1653887890399983,
+      0.0245,
+      0.0245
+    ],
+    "position_world_m": [
+      0.29554099193710537,
+      -0.38857460725480075,
+      0.8439571203617681
+    ],
+    "orientation_wxyz": [
+      0.8361761150778139,
+      0.070131671958836,
+      0.5327029357136195,
+      -0.11008467397291995
+    ],
+    "source_summary": "carry_user_20261021_103558_374/summary.json",
+    "source_summary_sha256": "6f05af11b27f618cb9dc5ede67d79e0b4bc0465ca0b46fee154d64483144691f",
+    "source_scene_sha256": "9d71754df03ab06c4fbed3010ef9a883ce71a3e6ca04de01815d7d1c7ca2630c",
+    "source_config_sha256": "e307f8153e1526f789b65f66a84b9a667930ee63821b96effc9304a8a7bb4395",
+    "kind": "new_lesson_initialization_B_plus_75mm_world_Z",
+    "physics_steps": 0,
+    "initialization_is_not_executed_movement": true
+  }
+}

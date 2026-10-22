@@ -1,0 +1,30 @@
+{
+  "record_type": "unchanged_saved_curve",
+  "run_id": "manual_user_20261021_212557_670",
+  "package_png": "media/run-212557_670-curves.png",
+  "package_png_sha256": "94e3cc7f1b707a97bee49bb67d8266b2ef8f333f034588c8cc81ce3b7a88ff92",
+  "original_plot_source_sha256": "cd7a18adc338586ba9d70cdfdc88999b4d77f72ff2680ffc98e8285183c97e56",
+  "kind": "manual_pickplace_record_plot",
+  "synthetic_tool_check": false,
+  "source_csv_sha256": "7d95881c61e2727bc1230f796a31fb1a4a9577d7f4f6aff6695a916349dc132e",
+  "summary_sha256": "93c951059f2b64cef94d399d507ab867aa95c347e0106bf62c62b9e4a56a537c",
+  "source_rows": 11577,
+  "plotted_rows": 11577,
+  "row_stride": 1,
+  "recorded_time_window_s": [
+    0.0,
+    46.303999999996094
+  ],
+  "origin_world_m": [
+    0.2955411052357512,
+    -0.3885744082243857,
+    0.8439573082679979
+  ],
+  "script_sha256": "9af00cb18c9ad9545426593ca902c2501b4562a8a5133ac99df768d6c908ed1d",
+  "renderer_sha256": "ACEA136B5B339A026F7D815CD7AC96BF2B0F985A7B91AC18ED4592DCE2B92082",
+  "sampling": "Uniform stride plus endpoints, phase/flag/target/finger-reference transitions and global displayed extrema; no smoothing.",
+  "relative_measurement_semantics": "Blank before saved grip baseline and after release starts; never substitute zero.",
+  "event_count_semantics": "Held-direction reference segments are not key-press counts; discrete commands are counted separately.",
+  "source_files_modified": false,
+  "no_new_physics": true
+}

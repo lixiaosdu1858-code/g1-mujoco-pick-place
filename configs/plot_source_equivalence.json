@@ -1,0 +1,12 @@
+{
+  "status": "plot_entry_prepared",
+  "source_parser_sha256": "9af00cb18c9ad9545426593ca902c2501b4562a8a5133ac99df768d6c908ed1d",
+  "source_renderer_sha256": "acea136b5b339a026f7d815cd7ac96bf2b0f985a7b91ac18ed4592dce2b92082",
+  "package_parser_sha256": "c0c481b8ffb6894c307e06dbbb643bd88d0fbf07cd65239bd5d96464058d4911",
+  "package_renderer_sha256": "a50e69c8cc5f61099ebeb7cae2d6952038ab6563ec20d35c9333dcf1dbeb623c",
+  "parser_and_data_audit_functions_identical": true,
+  "renderer_from_payload_preparation_through_chart_and_provenance_identical": true,
+  "change_scope": "Only launcher parameters/root/Python/cache/child script path. No physics, plotting or input audit logic changes.",
+  "new_physics_steps": 0,
+  "new_windows": 0
+}

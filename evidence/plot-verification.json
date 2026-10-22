@@ -1,0 +1,39 @@
+{
+  "status": "historical_record_plot_toolcheck_passed",
+  "source_run_id": "manual_user_20261021_175535_099",
+  "source_rows": 16345,
+  "plotted_rows": 16345,
+  "source_csv_sha256": "8ffb5c7da3f3332b099e00079d836b9ee27a0636afb900ce6cf0650102151b19",
+  "summary_sha256": "f3dc24b53bc022756136c6ede43da89bc0b2887514c2ad951c58d29974aaba72",
+  "input_copy_hashes": {
+    "manual.csv": {
+      "original_sha256": "8ffb5c7da3f3332b099e00079d836b9ee27a0636afb900ce6cf0650102151b19",
+      "copy_sha256": "8ffb5c7da3f3332b099e00079d836b9ee27a0636afb900ce6cf0650102151b19",
+      "identical": true
+    },
+    "summary.json": {
+      "original_sha256": "f3dc24b53bc022756136c6ede43da89bc0b2887514c2ad951c58d29974aaba72",
+      "copy_sha256": "f3dc24b53bc022756136c6ede43da89bc0b2887514c2ad951c58d29974aaba72",
+      "identical": true
+    }
+  },
+  "new_png_bytes_identical_to_original_saved_png": true,
+  "no_new_physics": true,
+  "source_files_modified": false,
+  "windows_opened": 0,
+  "validated_shell": "Windows PowerShell 5.1",
+  "validation_mode": "Show-Result.ps1 -NoShow on copies of a real recorded run; no new robot trial",
+  "plotter_equivalence": {
+    "status": "plot_entry_prepared",
+    "source_parser_sha256": "9af00cb18c9ad9545426593ca902c2501b4562a8a5133ac99df768d6c908ed1d",
+    "source_renderer_sha256": "acea136b5b339a026f7d815cd7ac96bf2b0f985a7b91ac18ed4592dce2b92082",
+    "package_parser_sha256": "c0c481b8ffb6894c307e06dbbb643bd88d0fbf07cd65239bd5d96464058d4911",
+    "package_renderer_sha256": "a50e69c8cc5f61099ebeb7cae2d6952038ab6563ec20d35c9333dcf1dbeb623c",
+    "parser_and_data_audit_functions_identical": true,
+    "renderer_from_payload_preparation_through_chart_and_provenance_identical": true,
+    "change_scope": "Only launcher parameters/root/Python/cache/child script path. No physics, plotting or input audit logic changes.",
+    "new_physics_steps": 0,
+    "new_windows": 0
+  },
+  "visual_review": "Eight panels complete and readable; world XYZ, tracking, fingers/contact, object height, slip/rotation and placement time retained; local Unicode path read correctly."
+}

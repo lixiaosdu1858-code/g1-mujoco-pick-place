@@ -1,0 +1,18 @@
+HIW-500 Controller
+Copyright 2026 the project contributors
+
+This product includes a partial copy of decoupled_wbc / SONIC whole-body-control
+resources from https://github.com/songlin/decoupled_wbc. Its software is
+described upstream as Apache-2.0 licensed.
+
+The files named GR00T-WholeBodyControl-*.onnx are licensed by NVIDIA Corporation
+under the NVIDIA Open Model License. A copy of that agreement is distributed at
+third_party/decoupled_wbc/sim2mujoco/resources/robots/g1/policy/
+NVIDIA Open Model License.
+
+Dex1-1 URDF and mesh assets were obtained from Unitree's unitree_ros project.
+Those files remain subject to their applicable upstream terms and are not
+relicensed by this project's Apache-2.0 license.
+
+HIW-500 dataset data is not distributed by this repository. The public dataset
+is maintained by BitRobot and identifies its data license separately.

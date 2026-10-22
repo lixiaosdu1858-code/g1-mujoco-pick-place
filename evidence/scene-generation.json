@@ -1,0 +1,19 @@
+{
+  "status": "generated_scene_byte_identical",
+  "output_sha256": "9d71754df03ab06c4fbed3010ef9a883ce71a3e6ca04de01815d7d1c7ca2630c",
+  "output_bytes": 33755,
+  "input_sha256": {
+    "robot": "f177bbfecb2bc9e1cbae9dee875a121e4d19de7a34523bf3ba8db527edc8fa54",
+    "scene": "f9f18b6ed53688b3bfe8b0c5a2597fc9b7480cc2313b48035c32e7c006b6cb1d"
+  },
+  "upstream_revision": "905111699ef28bdeb1c69c6fe8ada8405e963a48",
+  "python_version": "3.13.9",
+  "numpy_version": "2.3.5",
+  "generator_sha256": "545412d649d4b7f125a31ba0d08c21324dbde5fb8a8837b3c874aefe08a32024",
+  "parameters_sha256": "3ad3dd0a94d1e77c073263b2f06d4f355e0c1ab06fc2759a4e69832d6e801505",
+  "physics_steps": 0,
+  "viewer_opened": false,
+  "downloads": 0,
+  "original_inputs_modified": false,
+  "licensing_note": "Local generation does not establish permission to redistribute the supplied or generated XML."
+}

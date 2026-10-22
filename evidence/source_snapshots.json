@@ -1,0 +1,344 @@
+{
+  "record_type": "shared_run_snapshot_hashes",
+  "same_snapshot_set": true,
+  "snapshot_count": 84,
+  "snapshots": [
+    {
+      "path": "source/scene.xml",
+      "sha256": "9d71754df03ab06c4fbed3010ef9a883ce71a3e6ca04de01815d7d1c7ca2630c"
+    },
+    {
+      "path": "source/config.json",
+      "sha256": "e307f8153e1526f789b65f66a84b9a667930ee63821b96effc9304a8a7bb4395"
+    },
+    {
+      "path": "source/receipt.json",
+      "sha256": "b0004c9064eca0a54e2a7dcc621a1a0f89d6e138094760a25e77c1620785cb1e"
+    },
+    {
+      "path": "source/path.json",
+      "sha256": "5731bc14b374a0795ddebcc7085e4370353a70aa5a6c0a989cf6b03160ffed56"
+    },
+    {
+      "path": "original_source/contact_geometry_receipt.json",
+      "sha256": "8c4cac4e04831ce0b5d8fb7d6d3b40cbf2c10a03992e1505150d779c2effc25b"
+    },
+    {
+      "path": "source/asset_manifest.json",
+      "sha256": "54854e136670624bc5b49c26548e467c5c7be605da30281f83c39fc0acc8895d"
+    },
+    {
+      "path": "original_source/scene.xml",
+      "sha256": "70b1396b2abc1bc32865f7a811cac556728a50a95d714dc1c1fc908d350c9acc"
+    },
+    {
+      "path": "original_source/config.json",
+      "sha256": "2a911047755242c146e46cbf19871f8d9326301e36309f06bd562dfa78227d56"
+    },
+    {
+      "path": "original_source/static_audit.json",
+      "sha256": "8828a604dbee8e96783e58b71a8f9e12f1f2fab53648f5e10ac9f48b55f85b10"
+    },
+    {
+      "path": "code/analyze_hand_geometry.py",
+      "sha256": "ea00c8eb844de479963ce7f68c2066eab485e296047354ccf58c0b175339e4b5"
+    },
+    {
+      "path": "code/arm_joint_lesson.py",
+      "sha256": "ad7c4b88ceac0098999e3eaee06c6169bdeb44ef127390fe283064380ca8df8f"
+    },
+    {
+      "path": "code/arm_tracking_lesson.py",
+      "sha256": "326a152a311dd1a3467c8eb016f3412c58d6806329160f20a52bc051aa02f640"
+    },
+    {
+      "path": "code/audit_arm_tracking.py",
+      "sha256": "0a182a5fb8a98c1c8f5d15121920098d6d888e11cc682cf894552844ae1996e0"
+    },
+    {
+      "path": "code/build_elbow_scene.py",
+      "sha256": "81a477999a84138b6e40b86f9cde6d5b3887a540489b02818da47ce5db25dd7c"
+    },
+    {
+      "path": "code/build_pickplace_preview.py",
+      "sha256": "cc3d0c702250c1d27df265b789a90e8d0ffe556357d841c9f36b04cc62aefaa0"
+    },
+    {
+      "path": "code/build_shoulder_elbow_scene.py",
+      "sha256": "4ac66933fa3d42a3cd39e797c9b1584a403c508ff6b8d4ac5c51b3d0d5793b3a"
+    },
+    {
+      "path": "code/carry_route.py",
+      "sha256": "001b07ed4215c7f15a1e675a63eaccd6c36e2068c7907324d5132aa684e3464b"
+    },
+    {
+      "path": "code/carry_runtime.py",
+      "sha256": "ea1cf9fef6ccad27569f59cfa7ccfa2550692fa82022c7f99036a47bef0cdd66"
+    },
+    {
+      "path": "code/carry_to_tray.py",
+      "sha256": "6b0d00b2d0289f8385d09b279ee372b49b39fbcbe0109196c7c0ce935d4c47a7"
+    },
+    {
+      "path": "code/centered_grasp_geometry.py",
+      "sha256": "3ea1373979ae8ac3526125850a7ea6b6f56ba7cb5104b7b7f8cff44ff2cf85c8"
+    },
+    {
+      "path": "code/centered_grasp_lift.py",
+      "sha256": "d2efe01fd7b61c16204d0717b7039a6bfc771c5c5dc1f5d11c7933bd2a8a0597"
+    },
+    {
+      "path": "code/check_ik_method_preparation.py",
+      "sha256": "67e061ec1c5bb79d9cdbf1f170582559776013c6e837e4408bd6b30e3dad3afd"
+    },
+    {
+      "path": "code/empty_hand_path.py",
+      "sha256": "959f9211b765d6e0f1e5edeffd2b65a0ad5bded4624c3daf4067bffcd4d74fbe"
+    },
+    {
+      "path": "code/grasp_contact_geometry.py",
+      "sha256": "1b7fc0f9c693d9ce553ec59fee7bca3648ff3fc9d2d6b5bb1a3140f882973698"
+    },
+    {
+      "path": "code/grasp_lift.py",
+      "sha256": "e67c78380949e4e770e9d45d61ec722fdd2a1b3cc5ad979975b3642312c2ab6b"
+    },
+    {
+      "path": "code/grasp_repeat_check.py",
+      "sha256": "af13acefd512de01fd9e46a91f90a88ffce5402212e39d05eef78e1873097814"
+    },
+    {
+      "path": "code/grasp_solver_compare.py",
+      "sha256": "34afb69d22b91550b2221ccee804ea63ba20fd907804771cacc291d0bc108400"
+    },
+    {
+      "path": "code/grasp_solver_runtime.py",
+      "sha256": "89ec954720fb8fb2079ea15a0b3dc480795270b2e441eaeaf7e090d73d191eda"
+    },
+    {
+      "path": "code/ik_backtracking_compare.py",
+      "sha256": "4dbc93b7df87253aff68e943cc833d76ea11769f16c93510a8a17ca649779869"
+    },
+    {
+      "path": "code/ik_backtracking_step.py",
+      "sha256": "1bb2a11c957859c8d052fc10e58f4dc489f80e8861a095ea63daa4ebd714a6fe"
+    },
+    {
+      "path": "code/ik_bounded_step.py",
+      "sha256": "149c618ca2e9228fb70cb134b648b0ad26e5f336103550e7e1cc44a6b1d6c1fb"
+    },
+    {
+      "path": "code/ik_method_compare.py",
+      "sha256": "9339a727ad3ea91e5670e3a589bcbc4a5c649caf98ba5ab525faef019ac9fc4f"
+    },
+    {
+      "path": "code/ik_seed_compare.py",
+      "sha256": "19dc8cd1ef655dba5562b73ece656ec95937a2236a29e4b621a1fced823ab565"
+    },
+    {
+      "path": "code/layout_approach_compare.py",
+      "sha256": "7c4c77d4925e1a9550c809323852c6cc617a8f64cd22090cf6fc756e242e1c70"
+    },
+    {
+      "path": "code/layout_shift_compare.py",
+      "sha256": "8cd83832133a9ec4a9343c9e4916eeb566c8aca5a89cb0bbbbeec939a7a13e35"
+    },
+    {
+      "path": "code/lesson_common.py",
+      "sha256": "2cb41ceafec5d22d7ec3381ec34731c146833915137b07fd25916d35fc25d3ae"
+    },
+    {
+      "path": "code/pickplace_layout_preview.py",
+      "sha256": "4f0131ab191560908207a5f2f3ff8d6b192a85c272448465739c75118c636ebe"
+    },
+    {
+      "path": "code/plot_cartesian_keyboard.py",
+      "sha256": "6ba020306327a6412677c056660691928b4d00a732fb24c07a49b73fcabf3e7b"
+    },
+    {
+      "path": "code/plot_reachable_motion.py",
+      "sha256": "745e3880b9616d69edbf1936403c853bcfd88d7034897e75bf6982b5fc1183ab"
+    },
+    {
+      "path": "code/prepare_g1_assets.py",
+      "sha256": "58d2f0c14c3adfa49403a6d592d67dab8a1e999765d74d7a5b438f9548f8216b"
+    },
+    {
+      "path": "code/prepare_tray_shift.py",
+      "sha256": "975b719675895d0a2e8aab4c199073fd5c74705fb4f1d1c311c4a9ff8677bea2"
+    },
+    {
+      "path": "code/reachable_motion.py",
+      "sha256": "e71ffe3d283fc178cf574db3bb7093fbc0739dda1664ad6fc89efc6d6c8702bf"
+    },
+    {
+      "path": "code/reachable_motion_path.py",
+      "sha256": "d2d058d25b75521ef7106eb0f9dd5cf909891bbd71cc2e35786a81af865b2df2"
+    },
+    {
+      "path": "code/reachable_pose_design.py",
+      "sha256": "acf178b97ea06f0032a98ac382411b685529bc976f047700299ed51a8d795fb9"
+    },
+    {
+      "path": "code/reachable_pose_preview.py",
+      "sha256": "598bcb68d0b171a842d6d0417244fd57dd555fd707f29954d0634f94f78de7eb"
+    },
+    {
+      "path": "code/shoulder_elbow_lesson.py",
+      "sha256": "c067e6fd1bb8747a5293b70ee9a6d1fd965361e7bf311e6f80ee96a3f6169997"
+    },
+    {
+      "path": "code/task_pose_inspect.py",
+      "sha256": "fd5cb855e2331da622127a8ca733c8aed7e7e4ee6c7c5ea80c5d65c03ffacb1b"
+    },
+    {
+      "path": "code/test_centered_grasp_preparation.py",
+      "sha256": "70cff7f20a2e60b1be7904104f5978c672e17385f078bf8eca4ba62e145afa18"
+    },
+    {
+      "path": "code/test_empty_hand_path_preparation.py",
+      "sha256": "65d7d7f92a77dca4754c36dd7951f7b8c0ab640d13bf3a3fb52b13f805663b05"
+    },
+    {
+      "path": "code/test_grasp_lift_preparation.py",
+      "sha256": "3274e8cbb723f42347d399922dcd1fe5c6a4a7c786d13390d49633ad966ec540"
+    },
+    {
+      "path": "code/test_grasp_solver_preparation.py",
+      "sha256": "b0979dd81734ae57957cbe93d4284b49b27bc708f57282935bad3ace8f536781"
+    },
+    {
+      "path": "code/test_ik_backtracking_preparation.py",
+      "sha256": "1c4041b237b592724ddea4725dce9b13c9f8b64637d351003fabf92b04e71c81"
+    },
+    {
+      "path": "code/test_ik_bounded_step.py",
+      "sha256": "07e7d6d67cfc287bffec533522eebaba903811cfb24a04660d303fde1e4bcc06"
+    },
+    {
+      "path": "code/test_ik_seed_compare_synthetic.py",
+      "sha256": "6e39909e1245f298c4d9e429c5478f7dbd290d2a00cf59acfc97798ccaffb0ef"
+    },
+    {
+      "path": "code/test_layout_approach_preparation.py",
+      "sha256": "7161864624d1d1eb79873f3e0f75145b16935bccc3d9c61f9086ecd0ea1393b9"
+    },
+    {
+      "path": "code/test_layout_shift_preparation.py",
+      "sha256": "8a951bc0c6affe74d19bc8ea80bb5ac294d7492762bdfc27afb5df25e8b2624e"
+    },
+    {
+      "path": "code/test_reachable_motion_preparation.py",
+      "sha256": "16910529f5cce956afbb1930119c2355d7962c7e74d5e2da023072ab64cf128c"
+    },
+    {
+      "path": "code/tray_shift_compare.py",
+      "sha256": "485b17a6b5ad22714b2a8100d56cb142d96dd3a837d67521ac29e112d5a78597"
+    },
+    {
+      "path": "code/centered_grasp_source.json",
+      "sha256": "68dd488551b401d7a8eb6af4687078f2cc46cb089bc929deb6960e1a2ce34797"
+    },
+    {
+      "path": "code/reachable_preview_source.json",
+      "sha256": "100dda93a4852684d49ef13b0936fae66039d46c48e14d6af92cc76991776592"
+    },
+    {
+      "path": "code/reachable_motion_source.json",
+      "sha256": "7965a0d868f993f4da2860ed17ab81a4ef982b9bec2b43c5d4f394371cb24b4f"
+    },
+    {
+      "path": "code/grasp_lift_source.json",
+      "sha256": "d5f53d9686626ec68fd6058296d7196317737584f183de3cc20bdd8a8c4147e6"
+    },
+    {
+      "path": "code/Run-CenteredGraspLift.ps1",
+      "sha256": "61a82ca830cfd8af566d692790740c4c841fb85d957c7b2a9f96212ef03d71cf"
+    },
+    {
+      "path": "code/Show-GraspLift.ps1",
+      "sha256": "64e18d3f78588985171bf104e67d89027244a5d84a8c3162a0c31f5e6ae31826"
+    },
+    {
+      "path": "accepted_repeat/summary.json",
+      "sha256": "73ace9b44044367f747f3dd70639e6ae20bd7e9265783fc8db9c98fe6e9e3e5b"
+    },
+    {
+      "path": "carry_reference/path.json",
+      "sha256": "fd36e1647d135f097b0597e9c68fcac93768cceffee5e65a16f7e5595119ae45"
+    },
+    {
+      "path": "carry_reference/receipt.json",
+      "sha256": "4e1e76e2db60d23eb6e1821681dc8cbb2de77426203999c8d21e29278ce789be"
+    },
+    {
+      "path": "carry_reference/static_samples.json",
+      "sha256": "f0918432c7bf050e6d0a3990058b2338e28dab0ce7b3c86f3850ceb0ad884c0f"
+    },
+    {
+      "path": "carry_reference/carry_route.py",
+      "sha256": "6096325cc07280ccb9b716d094ea9bd212d351a932b237083c4b0c1c14f5815f"
+    },
+    {
+      "path": "code/Run-CarryToTray.ps1",
+      "sha256": "420c17c0ec85224b7272dfcf8ac5827133a915d754f9c974c8f4bf7958b60f84"
+    },
+    {
+      "path": "code/Show-CarryToTray.ps1",
+      "sha256": "2930bc4fc1b69065f78bb3e2f7110bf827529ff222c2f163cb27e7924249f5d5"
+    },
+    {
+      "path": "source/effective_solver_options.json",
+      "sha256": "ed528385a942ca088a43c0ead535057670c0c76d47f8bf63fd388696adef1f37"
+    },
+    {
+      "path": "accepted_keyboard/summary.json",
+      "sha256": "35ab20b50e204f38b21bdf82270a329cd959f70824068315480747095c8f7514"
+    },
+    {
+      "path": "code/manual_pickplace.py",
+      "sha256": "6260d6ff468cd257060b694197c28835514ed1b22232b4bc22578fcce223f725"
+    },
+    {
+      "path": "code/manual_task_target.py",
+      "sha256": "7fa550c02914af872e55bb659b3df60c5eb0fefdc90fd3191747bc970280abdb"
+    },
+    {
+      "path": "code/manual_task_checks.py",
+      "sha256": "947533f8b34c3f63d5c54195905723775a72364b9608f8695345e1a72671310e"
+    },
+    {
+      "path": "code/manual_task_observer.py",
+      "sha256": "711adb0c7e2badd02d4fcc1d3e0ff77401641a81a0a4afdd6b560f336b4c298a"
+    },
+    {
+      "path": "code/cartesian_keyboard.py",
+      "sha256": "210d1b3b04a128d5a834084ffa707ba632784e061edf663fdb9170b13859e7a2"
+    },
+    {
+      "path": "code/cartesian_keyboard_target.py",
+      "sha256": "5f32bc948b14931d77475aa328e7d6faf71a20a5e238d9ea0c5f8bde856a44e2"
+    },
+    {
+      "path": "code/manual_jog_input.py",
+      "sha256": "29b8c0dc97a99302130118d7f5b49066eb00bb1ed8160d1c0c3652720478e34b"
+    },
+    {
+      "path": "code/Run-ManualPickPlace.ps1",
+      "sha256": "74139010029abfb855b15210d86d110683a48392ab5841ed1bac5f4669ce0c5d"
+    },
+    {
+      "path": "code/Show-ManualPickPlace.ps1",
+      "sha256": "acea136b5b339a026f7d815cd7ac96bf2b0f985a7b91ac18ed4592dce2b92082"
+    },
+    {
+      "path": "code/plot_manual_task.py",
+      "sha256": "9af00cb18c9ad9545426593ca902c2501b4562a8a5133ac99df768d6c908ed1d"
+    },
+    {
+      "path": "manual_initialization.json",
+      "sha256": "a0c7e50d8aa53ab708c91f8a5a707bb3db87d642e14a69074ba4a1736679f31b"
+    }
+  ],
+  "note": "Paths are relative to each original user run; hash listing does not mean every original artifact is bundled."
+}

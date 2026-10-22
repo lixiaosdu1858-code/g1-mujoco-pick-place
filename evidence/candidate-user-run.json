@@ -1,0 +1,104 @@
+{
+  "record_type": "sanitized_independent_candidate_run_audit_extract",
+  "run_id": "manual_user_20261021_234130_681654",
+  "summary_sha256": "0992c39e04b67f58bba917b7f72a95ae61210205036314c9ad2a430cc63dd6d3",
+  "csv_sha256": "b1e7fd4b7b07d43d6970e98c234b835d84be6ce6c05cb6fafd3395a876ef3f2e",
+  "source_audit_sha256": "6c948d57b2d08e2a4aae88f3ec03d7084359e87d13e80aa01f69fe141804f3c5",
+  "checks": {
+    "csv_sha256": true,
+    "jog_reference_sha256": true,
+    "all_saved_snapshots_sha256": true,
+    "sample_count": true,
+    "time_step_grid": true,
+    "time_end": true,
+    "terminal_last_only": true,
+    "numeric_fields_finite": true,
+    "all_eight_summary_peaks_match": true,
+    "position_errors_recomputed_from_xyz": true,
+    "joint_errors_recomputed": true,
+    "one_manual_attempt": true,
+    "no_observer_stop_reasons": true,
+    "hold_flags_every_row": true,
+    "hold_duration_every_row": true,
+    "hold_max_summary": true,
+    "finger_separation_flags_every_row": true,
+    "placement_flags_every_row": true,
+    "placement_durations_every_row": true,
+    "placement_max_summary": true,
+    "physical_milestone_steps": true,
+    "relative_values_blank_outside_carry": true,
+    "final_two_seconds_501_samples": true,
+    "final_two_seconds_placement_valid": true,
+    "completed_ready_final": true,
+    "manual_task_success_matches_summary": true,
+    "placement_passed_matches_summary": true,
+    "held_passed_matches_summary": true
+  },
+  "all_checks_passed": true,
+  "recorded_steps": 13432,
+  "samples": 13433,
+  "simulation_s": 53.728,
+  "physics_loop_wall_s": 74.21493489993736,
+  "recomputed_peaks": {
+    "max_position_error_m": 0.002889957528472712,
+    "max_orientation_error_rad": 0.00904973606992642,
+    "max_joint_error_rad": 0.005341567078592568,
+    "max_torque_ratio": 0.549175244120724,
+    "max_finger_force_ratio": 0.4321697242003788,
+    "max_unexpected_contact_count": 0.0,
+    "max_held_relative_slip_m": 0.0002506308577211821,
+    "max_held_relative_rotation_rad": 0.002191659977708353
+  },
+  "recomputed_hold_longest_s": 4.276,
+  "recomputed_placement_longest_s": 3.12,
+  "final_two_seconds": {
+    "start_s": 51.72799999999309,
+    "end_s": 53.72799999999198,
+    "samples": 501,
+    "all_valid": true,
+    "statistics": {
+      "cube_tray_xy_margin_m": {
+        "min": 0.0376742787960182,
+        "max": 0.03767427879601821
+      },
+      "cube_tray_base_normal_n": {
+        "min": 0.3433499999999998,
+        "max": 0.3433500000000003
+      },
+      "cube_bottom_tray_clearance_m": {
+        "min": -7.634662141786652E-05,
+        "max": -7.634662141786652E-05
+      },
+      "minimum_finger_cube_clearance_lower_bound_m": {
+        "min": 0.04469134022010111,
+        "max": 0.04472172663253248
+      },
+      "cube_speed_m_s": {
+        "min": 1.1037272620509393E-14,
+        "max": 1.1126144982736123E-14
+      },
+      "cube_angular_speed_rad_s": {
+        "min": 9.096320218671298E-17,
+        "max": 3.5404186573088443E-15
+      },
+      "finger1_contact_count": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "finger2_contact_count": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "cube_table_contact_count": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "cube_tray_wall_contact_count": {
+        "min": 0.0,
+        "max": 0.0
+      }
+    }
+  },
+  "new_physics_steps": 0,
+  "scope": "One complete user run through the standalone candidate on the existing local environment; not a clean-machine installation or public release."
+}

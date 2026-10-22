@@ -1,0 +1,11 @@
+{
+  "kind": "frozen_local_task_layout",
+  "source": "Our FK-selected ABC layout and subsequent contact-centering transform",
+  "poses": {
+    "A": {"id": "A", "position_world_m": [0.32649645474542904, -0.39241023348476584, 0.8458055123058679]},
+    "B": {"id": "B", "position_world_m": [0.29554099193710537, -0.38857460725480075, 0.7689571203617681], "orientation_yaw_rad": -0.2617993877991494},
+    "C": {"id": "C", "position_world_m": [0.3857603724416464, -0.2407084142886885, 0.7838955233437741]}
+  },
+  "layout_translation_world_m": [0.00934680559181815, -0.0025044690101383754, -0.015932198031417932],
+  "expected_generated_scene_sha256": "9d71754df03ab06c4fbed3010ef9a883ce71a3e6ca04de01815d7d1c7ca2630c"
+}

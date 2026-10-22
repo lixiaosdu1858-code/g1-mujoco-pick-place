@@ -1,0 +1,88 @@
+{
+  "record_type": "sanitized_summary_extract",
+  "run_id": "manual_user_20261021_212238_372",
+  "original_source_sha256": {
+    "summary.json": "5bbe254764a634c9c904bd8bb80e5401b09e464c71b8b48589dc0c244efd0892",
+    "manual.csv": "ce6e1c3f08b4174362c0c1ec4d9f8e37f783e4a9c73b0d6e6a76e80477ec9e60",
+    "events.jsonl": "9e6d3c47fdb9e21a67bda857fe4bf2d6ef695050af6a07db230a579bf43467da",
+    "jog_references.jsonl": "976a2d8e483d76ceddbf54c2c284594f6644dc5cd294c132968a84ce2c2c4eb1"
+  },
+  "status": "completed",
+  "end_reason": "user_9",
+  "steps": 20972,
+  "data_saved_samples": 20973,
+  "simulation_s": 83.88800000001059,
+  "physics_loop_wall_s": 104.77984680002555,
+  "planning_wall_s_total": 17.84934279951267,
+  "wall_s": 120.59439509990625,
+  "manual_task_completed": true,
+  "grasp_hold_passed": true,
+  "transfer_completed": true,
+  "release_started": true,
+  "placement_passed": true,
+  "tracking_thresholds_passed": true,
+  "grasp_observed": true,
+  "lift_observed": true,
+  "hold_longest_valid_s": 3.172,
+  "placement_longest_valid_s": 10.896,
+  "metrics": {
+    "max_position_error_m": 0.0028102232016017454,
+    "max_orientation_error_rad": 0.00855391955351871,
+    "max_joint_error_rad": 0.0053224866386403225,
+    "max_torque_ratio": 0.5400330073826846,
+    "max_finger_force_ratio": 0.4351710479881194,
+    "max_unexpected_contact_count": 0,
+    "max_held_relative_slip_m": 0.00024159269130596045,
+    "max_held_relative_rotation_rad": 0.003673475458511783
+  },
+  "manual_task_milestones": {
+    "manual_close": {
+      "step": 8168,
+      "sim_s": 32.672000000000004
+    },
+    "grip_baseline": {
+      "step": 8731,
+      "sim_s": 34.924
+    },
+    "lift_observed": {
+      "step": 9241,
+      "sim_s": 36.964
+    },
+    "grasp_hold": {
+      "step": 10908,
+      "sim_s": 43.632
+    },
+    "transfer_observed": {
+      "step": 16657,
+      "sim_s": 66.628
+    },
+    "manual_open": {
+      "step": 17748,
+      "sim_s": 70.992
+    },
+    "placement": {
+      "step": 18748,
+      "sim_s": 74.992
+    }
+  },
+  "manual_task_stop_reasons": [],
+  "manual_gripper_intents": [
+    {
+      "command": "close",
+      "step": 8168,
+      "sim_s": 32.672000000000004,
+      "attempt_id": 1
+    },
+    {
+      "command": "open",
+      "step": 17748,
+      "sim_s": 70.992,
+      "attempt_id": 1
+    }
+  ],
+  "manual_attempt_id": 1,
+  "manual_observer_semantics": "physical_evidence_independent_of_command_permissions",
+  "full_v01_accepted": false,
+  "learner_verified": false,
+  "acceptance_note": "Runtime flags full_v01_accepted/learner_verified are preserved. Later three-run review accepts the manual functional/restart milestone; it does not claim independent mastery or publication."
+}

@@ -1,0 +1,83 @@
+{
+  "record_type": "sanitized_prior_audit_extract",
+  "run_id": "manual_user_20261021_175535_099",
+  "original_audit_sha256": "032c8a501977b16257130add07b15794440819d897159e474c37cae6acf887b3",
+  "status": "accepted_single_user_manual_success",
+  "source_sha256": {
+    "summary.json": "f3dc24b53bc022756136c6ede43da89bc0b2887514c2ad951c58d29974aaba72",
+    "manual.csv": "8ffb5c7da3f3332b099e00079d836b9ee27a0636afb900ce6cf0650102151b19",
+    "events.jsonl": "20d11d5cd9610521093ab586dd174da88891aca351a4d0e4d1d1d8541899a9df",
+    "jog_references.jsonl": "28b79a4bc11cb0dc784ef95c792c63999470e9fc3ad58f9fd25bd0c73d4ae88a"
+  },
+  "snapshot_count": 84,
+  "snapshot_hashes_verified": true,
+  "current_core_matches_run": true,
+  "rows": 16345,
+  "simulation_s": 65.37599999998797,
+  "physics_loop_wall_s": 87.79071659990586,
+  "maxima": {
+    "position_error_m": 0.0028866779225217246,
+    "orientation_error_rad": 0.00863898830592254,
+    "max_joint_error_rad": 0.005234444245982406,
+    "max_torque_ratio": 0.5264084408480464,
+    "max_finger_force_ratio": 0.4329082801701726,
+    "unexpected_contact_count": 0.0,
+    "relative_slip_m": 0.00023935565770188058,
+    "relative_rotation_rad": 0.0019555435220444542
+  },
+  "position_norm_discrepancy": 4.336808689942018E-19,
+  "placement_recomputed_continuous_s": 3.136,
+  "placement_saved_flag_mismatches": 0,
+  "grasp_hold_longest_s": 3.112,
+  "final_2s": {
+    "samples": 501,
+    "window_s": [
+      63.37599999998663,
+      65.37599999998797
+    ],
+    "minimum_xy_margin_m": 0.02876626802039045,
+    "minimum_floor_contacts": 4.0,
+    "minimum_support_n": 0.3433499999999998,
+    "maximum_cube_speed_m_s": 1.1094019856063554E-14,
+    "maximum_cube_angular_speed_rad_s": 2.7996080777187496E-15,
+    "fingers_clear": true,
+    "whole_cube_inside": true
+  },
+  "refusal_reasons": {
+    "released_before_commit": 5,
+    "ik_failed": 6
+  },
+  "milestones": {
+    "manual_close": {
+      "step": 6284,
+      "sim_s": 25.136
+    },
+    "grip_baseline": {
+      "step": 6847,
+      "sim_s": 27.388
+    },
+    "lift_observed": {
+      "step": 7478,
+      "sim_s": 29.912
+    },
+    "transfer_observed": {
+      "step": 12397,
+      "sim_s": 49.588
+    },
+    "grasp_hold": {
+      "step": 14781,
+      "sim_s": 59.124
+    },
+    "manual_open": {
+      "step": 15060,
+      "sim_s": 60.24
+    },
+    "placement": {
+      "step": 16060,
+      "sim_s": 64.24
+    }
+  },
+  "new_physics_steps": 0,
+  "new_windows": 0,
+  "limitation": "One successful user-driven simulation. Independent restart repeats and v0.1 release are pending."
+}

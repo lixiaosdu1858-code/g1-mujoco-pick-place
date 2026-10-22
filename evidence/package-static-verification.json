@@ -1,0 +1,14 @@
+{
+  "status": "static_package_verified",
+  "physics_steps": 0,
+  "viewer_opened": false,
+  "model_arrays_identical": 426,
+  "initial_sample_fields_identical": 128,
+  "reference_probes_identical": 2,
+  "model_loaded": true,
+  "planner_constructed": true,
+  "mujoco_version": "3.3.7",
+  "numpy_version": "2.3.5",
+  "baseline_source_run_id": "manual_user_20261021_175535_099",
+  "limitation": "Static equivalence only. Original project dynamics succeeded; packaged entry has not been independently user-run."
+}
