@@ -1,0 +1,31 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated runs, downloads, caches and local archives
+/outputs/
+/downloads/
+/cache/
+/.cache/
+/tmp/
+*.zip
+*.7z
+
+# Machine-specific settings and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Separately supplied upstream XML and locally generated scenes
+/upstream/
+/assets/scene.xml
+/configs/scene.xml
