@@ -1,0 +1,14 @@
+{
+  "snapshot_mappings": [
+    {
+      "path": "assets/manifest.json",
+      "recorded_sha256": "f6976fe149098b6dbfd757a8aae2f9412b131b20343364e9bb86fd3d646e0c56",
+      "package_sha256": "0e4de1b785fe7823bd0395f1adf3f4fe898ce06675078c26f6b65826755c976b"
+    },
+    {
+      "path": "configs/runtime_integrity.json",
+      "recorded_sha256": "59da1d5e730bebbf3339058c47274a5f14805a7001d831b88d72bd4ac4109aaa",
+      "package_sha256": "7b2d39d8bb195a3306d6032785faa88fef5fd449314585d96cbeeaf751ef4c3b"
+    }
+  ]
+}

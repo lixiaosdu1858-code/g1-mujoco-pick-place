@@ -29,3 +29,11 @@ Thumbs.db
 /upstream/
 /assets/scene.xml
 /configs/scene.xml
+
+# v0.2 examples keep their declared source records only; all XML stays local
+*.xml
+node_modules/
+.coverage
+htmlcov/
+*.bak
+*.tmp

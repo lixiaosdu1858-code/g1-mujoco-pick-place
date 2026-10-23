@@ -1,0 +1,95 @@
+{
+  "schema": "g1.v02_user_replay_verification_excerpt",
+  "status": "passed_user_observed_relocated_candidate_dynamic_replay",
+  "record_type": "audit_excerpt_not_original_run_summary",
+  "prepared_beijing": "2026-10-23T21:47:23.010594+08:00",
+  "run_id": "replay_user_20261023_210302_965_7541bb",
+  "source_demonstration_id": "demonstration_user_20261023_113143_694_d01c01",
+  "materialized_example_id": "example_20261023_183317_389_346642",
+  "user_confirmed_complete_grasp_transfer_release_placement": true,
+  "source_candidate_archive_sha256": "78d5f91dd788883514c9a50f8389133e8cb9efbd35e8e8b0bf343c1aaaef7a75",
+  "source_candidate_manifest_sha256": "c08106a74fbeac9232a9fac62120795d9f881cc53f07de28a24e00e7ba95025c",
+  "source_audit_sha256": "03ccf4f426c2fe81425b4e213c31f108a93d61f99d510ed5b1e56c494899aaa4",
+  "run_files_sha256": {
+    "summary.json": "9befc35129d951b278be6f7253a9cfba0ffc205fbc2f05a3934bdf591a44df52",
+    "manual.csv": "b6d515f7b022bad58043938dc1c23daf7ec27302cab96e667e551c546c8cf61c",
+    "initialization.json": "ea6ff9b5b1e39ce2e03fcd067ebb078603e09f71dfb5e07feb6c3c96558c76e1",
+    "events.jsonl": "948ae238814f4d6ffdcd0fc48daa8d546802cfbd0b71f67397df32fa9da09f08",
+    "replay_episode.py": "7ae9b019b0d479995b69647d087a00dd36fb9eca97c4bb37782a1061ea2fd546"
+  },
+  "software": {
+    "python_version": "3.13.9",
+    "mujoco_version": "3.3.7",
+    "numpy_version": "2.3.5"
+  },
+  "result": {
+    "status": "completed",
+    "end_reason": "reference_sequence_end",
+    "steps": 15560,
+    "simulation_s": 62.23999999998726,
+    "physics_loop_wall_s": 64.85905829980038,
+    "data_saved_samples": 15561,
+    "dt_s": 0.004,
+    "sequence_completed": true,
+    "replay_completed": true,
+    "placement_passed": true,
+    "tracking_thresholds_passed": true
+  },
+  "metrics_recomputed": {
+    "max_position_error_m": 0.002909046399608146,
+    "max_orientation_error_rad": 0.008958374905860485,
+    "max_joint_error_rad": 0.005346324824836879,
+    "max_torque_ratio": 0.5201294360230981,
+    "max_finger_force_ratio": 0.4304932936578326,
+    "max_unexpected_contact_count": 0.0,
+    "max_held_relative_slip_m": 0.00028498940558787457,
+    "max_held_relative_rotation_rad": 0.004592798959313046,
+    "position_rmse_m": 0.0011948882836995327,
+    "placement_longest_valid_s": 6.464
+  },
+  "source_hashes_verified": 51,
+  "readonly_checks_passed": 23,
+  "saved_csv_comparison": {
+    "compared_columns": 196,
+    "mismatches": {},
+    "wall_s_different_rows": 15561
+  },
+  "demo_differences": {
+    "maximum_tool_position_m": 0.0,
+    "maximum_cube_position_m": 0.0,
+    "maximum_qpos_absolute": 0.0,
+    "maximum_qvel_absolute": 0.0,
+    "raw_quaternions_identical": true
+  },
+  "final_two_seconds_placement": {
+    "samples": 501,
+    "invalid_samples": 0
+  },
+  "initialization_verification": {
+    "status": "verified_exactly",
+    "initialization_sha256": "7743a280bc723b7e5231422de3e1bc65e7ba362753d62a9122c5a83f51541b1d",
+    "state_spec": 8191,
+    "integration_state_size": 305,
+    "maximum_absolute_differences": {
+      "integration_state": 0.0,
+      "qpos": 0.0,
+      "qvel": 0.0,
+      "ctrl": 0.0,
+      "qacc_warmstart": 0.0
+    },
+    "software_exact_match": true,
+    "physical_state_source": "fresh_frozen_package_setup_verified_against_recorded_full_state",
+    "software_transition": "manual waiting_start verified; replay enters settling when started; no old task labels restored"
+  },
+  "user_run_physics_steps": 15560,
+  "audit_physics_steps": 0,
+  "limits": [
+    "Same machine and existing Python environment; no fresh installation verification.",
+    "Same model, initial state and reference sequence; no unseen-initial-state policy evaluation.",
+    "Equality is at saved precision; does not prove cross-platform bitwise determinism.",
+    "Physical predicates are recomputed from saved measurements; no new physics is run.",
+    "Candidate archive and runtime unchanged; public v0.2 release not performed."
+  ],
+  "provenance_note": "Raw user run remains in the original local project. Bundled example/saved-replay is the earlier historical pair, not this new run. Hashes bind originals but are not a substitute for omitted raw files.",
+  "placement_audit_note": "Predicates recomputed from saved support, clearance, speed, tracking and contact measurements; pre-release grasp/transfer flags are retained observer outputs, not independently rebuilt here."
+}

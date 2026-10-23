@@ -1,0 +1,412 @@
+{
+  "kind": "g1_v02_dynamic_reference_replay",
+  "status": "completed",
+  "end_reason": "reference_sequence_end",
+  "steps": 15560,
+  "simulation_s": 62.23999999998726,
+  "data_saved_samples": 15561,
+  "model_loaded": true,
+  "viewer_started": true,
+  "physics_started": true,
+  "dynamic_replay_executed": true,
+  "replay_completed": true,
+  "sequence_completed": true,
+  "manual_task_completed": false,
+  "learner_verified": false,
+  "replay_script_sha256": "60f31228321961e19e76ff830740460253803821ba0fc843eaa9bc547909ff77",
+  "scope": "Local fixed-scene same-initial-state replay; no learned policy",
+  "replay_support_code": [
+    {
+      "path": "replay_code/inspect_episode.py",
+      "sha256": "236ccf490875fb715a9ecd50f1d3d196537b726d91e408dc057288da6abddaa2"
+    },
+    {
+      "path": "replay_code/episode_state.py",
+      "sha256": "eb4d71c3dab74d62f6960597a7fea1f495fbf2aa3e2f75bc65916d76557cd711"
+    }
+  ],
+  "source_run": "../demonstration",
+  "episode_index": "../demonstration/episode/episode-index.json",
+  "episode_index_sha256": "1b88ffa6a5e323af9e38051c49b15cd1822a9487275a336184decaf56eb1bf9c",
+  "source_summary_sha256": "c958f7c858abf805bd8d35a20509ecb54e127ffca528984111d7c1989280d47d",
+  "reference_sha256": "7ed4c3082857a00ab620e1d2dd153e04e006584c5450b22480ed1b048f1208dc",
+  "planned_steps": 15560,
+  "dt_s": 0.004,
+  "model_timestep_s": 0.004,
+  "source_files_sha256": {
+    "actions.jsonl": "99fc30fad48d7b6d45b5c4b9a2eb093a8314b514aa96e759f9a79c8e2df29f6c",
+    "assets/manifest.json": "f6976fe149098b6dbfd757a8aae2f9412b131b20343364e9bb86fd3d646e0c56",
+    "assets/vfs_map.json": "99c0abc067079e75905176a74766b356027dc54d0689453856538669da69dd86",
+    "collection_code/collect_episode.py": "0bf31e8ad4b08c6db5d0ba1e91f6b0446e9a668016892dbbaa885b05859c66a5",
+    "collection_code/episode_schema.py": "903037bc1f8912148509d14aa3ad9fbf77a75181e00a7baca5c2064c48954537",
+    "collection_code/episode_state.py": "eb4d71c3dab74d62f6960597a7fea1f495fbf2aa3e2f75bc65916d76557cd711",
+    "command_references/0055.json": "17cba74961ace275acb41422111bc62eb8915cb575dd5bfbdd1a0686c892343b",
+    "command_references/0253.json": "d23466c248c38f7f3ca8d3db5511f717aac4a891f87152164f88d4af20a7e391",
+    "configs/accepted_baseline.json": "5f710296f86b1e9a489b293408678e63ee7ac39b2183a9c59f0c22485f3625fa",
+    "configs/config.json": "b10ed31e180b4535dbd7663b7cdc5f46ec9446bd195b5556bc2bf9f439824ce2",
+    "configs/dependency_versions.json": "9a03940fa113aafa0dd137710c54132623a2cb64875234499ad0f57dae6815df",
+    "configs/frozen_context.json": "279452b061f35ea4fde6c5e0a5f7bccae27e537ac7475b7e0814f1f0a9dd0daf",
+    "configs/keyboard_anchor.json": "8a79353a724c7173d6da7da3f9e14987988fb0c1097c4e425cf8a464bc6b4efb",
+    "configs/plot_source_equivalence.json": "41464fef8cb72dc56d90d013ebad52594c84de3debb61f5b9da2b4ba4f54d4a6",
+    "configs/reference.json": "d8de6bf01b4d5c90de07c2e71566649952d187b476182098cebad7a649233aeb",
+    "configs/runtime_integrity.json": "59da1d5e730bebbf3339058c47274a5f14805a7001d831b88d72bd4ac4109aaa",
+    "configs/scene.xml": "9d71754df03ab06c4fbed3010ef9a883ce71a3e6ca04de01815d7d1c7ca2630c",
+    "configs/source_equivalence.json": "e162fdab203eee239728dc9a060c5bb2818dc3519289794aa047216a103a359d",
+    "configs/static_baseline.json": "928326ab164fc71b18e60b63f214f098f865e0f3bccc2f422016a198b6cfc9c3",
+    "events.jsonl": "45bfaae549498de755325b77d34b2dad10b3cdd145512b958fa6f3f37839b62d",
+    "field-semantics.json": "b6ed24fe8bd51a4473c298b2a239fa4e3cee62e9c39cfc2ae716699bd317452d",
+    "initialization.json": "7743a280bc723b7e5231422de3e1bc65e7ba362753d62a9122c5a83f51541b1d",
+    "jog_references.jsonl": "47dac51f6981785e3bb940007ac69843410b2d826146fff90dfaaf5decccd9b7",
+    "manual.csv": "ca5d4053ec796c5179dfc2d5e2850dba8b66e995774c09b6e2b89cf1cae836a7",
+    "manual_initialization.json": "05715e0f3abbef87d33eef6b30ba99dd17a9db0dd5cc9498e6ab40a8f57710b5",
+    "runtime/build_elbow_scene.py": "81a477999a84138b6e40b86f9cde6d5b3887a540489b02818da47ce5db25dd7c",
+    "runtime/build_shoulder_elbow_scene.py": "4ac66933fa3d42a3cd39e797c9b1584a403c508ff6b8d4ac5c51b3d0d5793b3a",
+    "runtime/carry_route.py": "001b07ed4215c7f15a1e675a63eaccd6c36e2068c7907324d5132aa684e3464b",
+    "runtime/carry_runtime.py": "ea1cf9fef6ccad27569f59cfa7ccfa2550692fa82022c7f99036a47bef0cdd66",
+    "runtime/carry_to_tray.py": "6b0d00b2d0289f8385d09b279ee372b49b39fbcbe0109196c7c0ce935d4c47a7",
+    "runtime/cartesian_keyboard.py": "210d1b3b04a128d5a834084ffa707ba632784e061edf663fdb9170b13859e7a2",
+    "runtime/cartesian_keyboard_target.py": "4eac37383ddee5c63d848e988683ff3ebec4efb7167aa3f798d092ccddc2b707",
+    "runtime/centered_grasp_lift.py": "d2efe01fd7b61c16204d0717b7039a6bfc771c5c5dc1f5d11c7933bd2a8a0597",
+    "runtime/grasp_contact_geometry.py": "1b7fc0f9c693d9ce553ec59fee7bca3648ff3fc9d2d6b5bb1a3140f882973698",
+    "runtime/grasp_lift.py": "e67c78380949e4e770e9d45d61ec722fdd2a1b3cc5ad979975b3642312c2ab6b",
+    "runtime/grasp_solver_compare.py": "34afb69d22b91550b2221ccee804ea63ba20fd907804771cacc291d0bc108400",
+    "runtime/grasp_solver_runtime.py": "89ec954720fb8fb2079ea15a0b3dc480795270b2e441eaeaf7e090d73d191eda",
+    "runtime/ik_bounded_step.py": "149c618ca2e9228fb70cb134b648b0ad26e5f336103550e7e1cc44a6b1d6c1fb",
+    "runtime/ik_seed_compare.py": "19dc8cd1ef655dba5562b73ece656ec95937a2236a29e4b621a1fced823ab565",
+    "runtime/lesson_common.py": "2271bdef3e9f91311745e24f38a7731a6c5e9bcdb9da91c9b57835cbcc01e29a",
+    "runtime/manual_jog_input.py": "29b8c0dc97a99302130118d7f5b49066eb00bb1ed8160d1c0c3652720478e34b",
+    "runtime/manual_pickplace.py": "126c96746adc10daa3c7d4d9288e7e4232d46d401f1421d35f4c6fad1c5f0a67",
+    "runtime/manual_task_checks.py": "947533f8b34c3f63d5c54195905723775a72364b9608f8695345e1a72671310e",
+    "runtime/manual_task_observer.py": "711adb0c7e2badd02d4fcc1d3e0ff77401641a81a0a4afdd6b560f336b4c298a",
+    "runtime/manual_task_target.py": "7fa550c02914af872e55bb659b3df60c5eb0fefdc90fd3191747bc970280abdb",
+    "runtime/package_runtime.py": "8708d10eef3095d85a1e114c239f4fc5fab539ae06e989dac00948fd8ded40fe",
+    "runtime/pickplace_layout_preview.py": "4f0131ab191560908207a5f2f3ff8d6b192a85c272448465739c75118c636ebe",
+    "runtime/plot_manual_task.py": "c0c481b8ffb6894c307e06dbbb643bd88d0fbf07cd65239bd5d96464058d4911",
+    "runtime/reachable_motion.py": "e71ffe3d283fc178cf574db3bb7093fbc0739dda1664ad6fc89efc6d6c8702bf",
+    "runtime/reachable_pose_preview.py": "598bcb68d0b171a842d6d0417244fd57dd555fd707f29954d0634f94f78de7eb",
+    "summary.json": "c958f7c858abf805bd8d35a20509ecb54e127ffca528984111d7c1989280d47d"
+  },
+  "source_episode_format": "g1.demonstration.v0.2.0",
+  "source_complete_v02_episode": true,
+  "mujoco_version": "3.3.7",
+  "numpy_version": "2.3.5",
+  "python_version": "3.13.9",
+  "executable": "redacted_machine_path",
+  "thresholds": {
+    "minimum_lift_m": 0.02,
+    "maximum_relative_slip_m": 0.005,
+    "maximum_relative_rotation_rad": 0.1,
+    "minimum_finger_normal_n": 0.3,
+    "hold_s": 2.0,
+    "contact_stable_s": 0.25,
+    "max_hold_cube_speed_m_s": 0.02,
+    "max_hold_cube_angular_speed_rad_s": 0.2,
+    "position_warning_m": 0.003,
+    "orientation_warning_rad": 0.05,
+    "position_stop_m": 0.015,
+    "orientation_stop_rad": 0.12,
+    "max_joint_error_rad": 0.15,
+    "max_joint_speed_rad_s": 2.0,
+    "max_finger_speed_m_s": 0.25,
+    "min_finger_table_gap_m": 0.0005,
+    "maximum_simulation_s": 420.0,
+    "maximum_physics_wall_s": 900.0,
+    "maximum_wait_phase_s": 45.0,
+    "ready_arm_speed_rad_s": 0.05,
+    "ready_finger_speed_m_s": 0.01,
+    "ready_finger_error_m": 0.003,
+    "ready_stable_s": 0.25,
+    "settling_timeout_s": 5.0
+  },
+  "placement_thresholds": {
+    "hold_s": 2.0,
+    "evaluation_window_s": 3.0,
+    "minimum_tray_xy_margin_m": 0.002,
+    "minimum_floor_normal_n": 0.1,
+    "minimum_floor_clearance_m": -0.001,
+    "maximum_floor_clearance_m": 0.002,
+    "minimum_finger_cube_distance_m": 0.003,
+    "maximum_cube_speed_m_s": 0.02,
+    "maximum_cube_angular_speed_rad_s": 0.2,
+    "maximum_wait_phase_s": 45.0,
+    "opening_duration_s": 2.0,
+    "minimum_release_floor_clearance_m": 0.002,
+    "release_settle_minimum_s": 1.0,
+    "release_settle_timeout_s": 3.0,
+    "release_settle_stable_s": 0.25
+  },
+  "frozen_physics_options": {
+    "timestep": 0.004,
+    "impratio": 1.0,
+    "tolerance": 1e-08,
+    "ls_tolerance": 0.01,
+    "noslip_tolerance": 1e-06,
+    "ccd_tolerance": 1e-06,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "wind": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "magnetic": [
+      0.0,
+      -0.5,
+      0.0
+    ],
+    "density": 0.0,
+    "viscosity": 0.0,
+    "o_margin": 0.0,
+    "o_solref": [
+      0.02,
+      1.0
+    ],
+    "o_solimp": [
+      0.9,
+      0.95,
+      0.001,
+      0.5,
+      2.0
+    ],
+    "o_friction": [
+      1.0,
+      1.0,
+      0.005,
+      0.0001,
+      0.0001
+    ],
+    "integrator": 3,
+    "cone": 0,
+    "jacobian": 2,
+    "solver": 2,
+    "iterations": 100,
+    "ls_iterations": 50,
+    "noslip_iterations": 3,
+    "ccd_iterations": 35,
+    "disableflags": 0,
+    "enableflags": 0,
+    "disableactuator": 0,
+    "sdf_initpoints": 40,
+    "sdf_iterations": 10
+  },
+  "complete_initialization_verification": {
+    "status": "verified_exactly",
+    "initialization_sha256": "7743a280bc723b7e5231422de3e1bc65e7ba362753d62a9122c5a83f51541b1d",
+    "state_spec": 8191,
+    "integration_state_size": 305,
+    "maximum_absolute_differences": {
+      "integration_state": 0.0,
+      "qpos": 0.0,
+      "qvel": 0.0,
+      "ctrl": 0.0,
+      "qacc_warmstart": 0.0
+    },
+    "software_exact_match": true,
+    "physical_state_source": "fresh_frozen_package_setup_verified_against_recorded_full_state",
+    "software_transition": "manual waiting_start verified; replay enters settling when started; no old task labels restored"
+  },
+  "source_collection_code": [
+    {
+      "path": "collection_code/collect_episode.py",
+      "sha256": "0bf31e8ad4b08c6db5d0ba1e91f6b0446e9a668016892dbbaa885b05859c66a5"
+    },
+    {
+      "path": "collection_code/episode_state.py",
+      "sha256": "eb4d71c3dab74d62f6960597a7fea1f495fbf2aa3e2f75bc65916d76557cd711"
+    },
+    {
+      "path": "collection_code/episode_schema.py",
+      "sha256": "903037bc1f8912148509d14aa3ad9fbf77a75181e00a7baca5c2064c48954537"
+    }
+  ],
+  "static_preparation": {
+    "status": "passed_static_only",
+    "physics_steps": 0,
+    "initial_sample_max_differences": {
+      "q_ref": 0.0,
+      "qd_ref": 0.0,
+      "q": 0.0,
+      "qd": 0.0,
+      "tau": 0.0,
+      "actual": 0.0,
+      "cube": 0.0,
+      "ref": 0.0
+    },
+    "command_count": 253,
+    "gripper_events": [
+      {
+        "step": 3740,
+        "command": "close"
+      },
+      {
+        "step": 13444,
+        "command": "open"
+      }
+    ],
+    "sequence_states": 15561,
+    "sequence_actions": 15560,
+    "integration_state_size": 305,
+    "note": "No dynamics, rendering or replay success verified",
+    "complete_initialization_verification": {
+      "status": "verified_exactly",
+      "initialization_sha256": "7743a280bc723b7e5231422de3e1bc65e7ba362753d62a9122c5a83f51541b1d",
+      "state_spec": 8191,
+      "integration_state_size": 305,
+      "maximum_absolute_differences": {
+        "integration_state": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "ctrl": 0.0,
+        "qacc_warmstart": 0.0
+      },
+      "software_exact_match": true,
+      "physical_state_source": "fresh_frozen_package_setup_verified_against_recorded_full_state",
+      "software_transition": "manual waiting_start verified; replay enters settling when started; no old task labels restored"
+    }
+  },
+  "task_completed": true,
+  "tracking_thresholds_passed": true,
+  "metrics": {
+    "max_position_error_m": 0.002909046399608146,
+    "max_orientation_error_rad": 0.008958374905860485,
+    "max_joint_error_rad": 0.005346324824836879,
+    "max_torque_ratio": 0.5201294360230981,
+    "max_finger_force_ratio": 0.4304932936578326,
+    "max_unexpected_contact_count": 0,
+    "max_held_relative_slip_m": 0.00028498940558787457,
+    "max_held_relative_rotation_rad": 0.004592798959313046
+  },
+  "physics_loop_wall_s": 65.7972927999217,
+  "final_phase": "ready",
+  "stop_reasons": [],
+  "grasp_hold_passed": true,
+  "grasp_observed": true,
+  "lift_observed": true,
+  "transfer_completed": true,
+  "release_started": true,
+  "placement_passed": true,
+  "descent_observed": false,
+  "retraction_observed": false,
+  "hold_longest_valid_s": 4.284,
+  "placement_longest_valid_s": 6.464,
+  "manual_task_milestones": {
+    "manual_close": {
+      "step": 3740,
+      "sim_s": 14.96
+    },
+    "grip_baseline": {
+      "step": 4303,
+      "sim_s": 17.212
+    },
+    "lift_observed": {
+      "step": 5492,
+      "sim_s": 21.968
+    },
+    "grasp_hold": {
+      "step": 7120,
+      "sim_s": 28.48
+    },
+    "transfer_observed": {
+      "step": 10552,
+      "sim_s": 42.208
+    },
+    "manual_descent": {
+      "step": 12824,
+      "sim_s": 51.296
+    },
+    "manual_open": {
+      "step": 13444,
+      "sim_s": 53.776
+    },
+    "placement": {
+      "step": 14444,
+      "sim_s": 57.776
+    }
+  },
+  "manual_task_stop_reasons": [],
+  "manual_attempt_id": 1,
+  "manual_attempt_history": [],
+  "manual_gripper_intents": [
+    {
+      "command": "close",
+      "step": 3740,
+      "sim_s": 14.96,
+      "attempt_id": 1
+    },
+    {
+      "command": "open",
+      "step": 13444,
+      "sim_s": 53.776,
+      "attempt_id": 1
+    }
+  ],
+  "manual_observer_semantics": "physical_evidence_independent_of_command_permissions",
+  "minimum_carried_xy_displacement_m": 0.005,
+  "final_qpos": [
+    -0.9187626257576594,
+    -0.026033703772465673,
+    -0.7068389833482084,
+    0.48871691550501406,
+    -1.1375196031405497,
+    1.3776731051747249,
+    0.7501499638767778,
+    0.02449883657979149,
+    0.024499999863482662,
+    0.3605007334427655,
+    -0.2422871884207896,
+    0.7559485757089323,
+    0.9944142562052317,
+    2.1495396146591947e-17,
+    -6.490653293246652e-18,
+    -0.1055475582654277
+  ],
+  "final_qvel": [
+    -8.931604495293016e-05,
+    9.76907473679676e-05,
+    -3.076113385536775e-06,
+    1.2849409399158848e-05,
+    1.6042736988158323e-05,
+    2.998074819649391e-07,
+    -4.1999788860251663e-07,
+    7.73296967014941e-05,
+    -2.6839051872027612e-08,
+    1.7162054341925428e-18,
+    1.429014682122973e-17,
+    1.0662136032568653e-14,
+    -5.921710918710267e-16,
+    5.174892851607592e-16,
+    -7.230932952613363e-16
+  ],
+  "final_qacc_warmstart": [
+    -6.323176366507255e-06,
+    -5.284980714703735e-05,
+    1.8651408764558397e-05,
+    -9.505888206362556e-06,
+    5.5881960879133885e-05,
+    5.290522488810012e-05,
+    5.770099920887617e-05,
+    0.004502504834512644,
+    1.4502737025079426e-05,
+    1.2390881971262907e-15,
+    -1.6851599480917553e-15,
+    1.7763568394002505e-15,
+    -1.5101387402476673e-13,
+    -5.2274033316265407e-14,
+    -5.227403331626539e-14
+  ],
+  "manual_csv_sha256": "28fa8fd46973c48912a12980a666ea69bc5fec2811585bde9490e92807c8461b",
+  "physical_result": {
+    "status": "completed",
+    "end_reason": "reference_sequence_end",
+    "steps": 15560,
+    "sequence_completed": true,
+    "replay_completed": true,
+    "task_completed": true,
+    "tracking_thresholds_passed": true
+  },
+  "ui_end_reason": "user_9",
+  "wall_s": 81.91563900001347
+}

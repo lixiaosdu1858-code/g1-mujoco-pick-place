@@ -1,0 +1,67 @@
+{
+  "status": "frozen_static_keyboard_initial_pose",
+  "physics_steps": 0,
+  "anchor_id": "C_high_inward_X_10mm",
+  "source_summary": "configs/accepted_baseline.json",
+  "source_summary_sha256": "5f710296f86b1e9a489b293408678e63ee7ac39b2183a9c59f0c22485f3625fa",
+  "source_candidate": "provenance:cartesian_keyboard_center_candidate_20261021_111940_681244",
+  "source_candidate_sha256": "2354f1872391b7f05a3ee8ea93b0404e65e192497497fa95ae574eedea5adafe",
+  "source_scene_sha256": "9d71754df03ab06c4fbed3010ef9a883ce71a3e6ca04de01815d7d1c7ca2630c",
+  "source_config_sha256": "b10ed31e180b4535dbd7663b7cdc5f46ec9446bd195b5556bc2bf9f439824ce2",
+  "source_reference_sha256": "d8de6bf01b4d5c90de07c2e71566649952d187b476182098cebad7a649233aeb",
+  "q_ref9": [
+    -1.0489140407506712,
+    -0.5305150119224631,
+    0.31538999804073875,
+    0.9914658869917263,
+    1.1591781194209139,
+    1.1152717142033481,
+    -0.5373349780022026,
+    0.0245,
+    0.0245
+  ],
+  "position_world_m": [
+    0.39940623068260267,
+    -0.21633921372680148,
+    0.845274955407553
+  ],
+  "orientation_wxyz": [
+    0.8361761150778135,
+    0.07013167195883595,
+    0.5327029357136203,
+    -0.11008467397291972
+  ],
+  "derived_target_position_world_m": [
+    0.3994149461975327,
+    -0.21632624446260795,
+    0.8452625136243843
+  ],
+  "derivation": "Original C_high transport endpoint, then two accepted static world -X 5 mm commands. New initial state only in new keyboard exercise; no actual motion replay.",
+  "workspace_half_extent_m": 0.01,
+  "settings": {
+    "maximum_delta_m": 0.005,
+    "workspace_half_extent_m": 0.01,
+    "position_tolerance_m": 5e-05,
+    "orientation_tolerance_rad": 0.0005,
+    "path_orientation_tolerance_rad": 0.05,
+    "path_line_deviation_m": 0.001,
+    "arm_margin_rad": 0.03,
+    "minimum_environment_gap_m": 0.01,
+    "maximum_arm_reference_speed_rad_s": 0.5,
+    "maximum_finger_reference_speed_m_s": 0.035,
+    "maximum_static_gravity_to_cap": 0.7,
+    "motion_duration_s": 1.0,
+    "finger_duration_s": 2.0,
+    "ik_iterations": 20,
+    "qp_iterations": 128,
+    "ik_step_bound_rad": 0.05,
+    "damping": 1e-06,
+    "orientation_weight_m": 0.15,
+    "backtracking_scales": 8
+  },
+  "limitations": [
+    "Empty-hand local practice, no grasp or transport.",
+    "Joint interpolation fixes endpoint orientation; intermediate orientation may vary and is checked.",
+    "Six-axis +/-10 mm paths checked; every future command checked separately, not proof of entire 3D cube."
+  ]
+}

@@ -1,8 +1,8 @@
 # Third-party sources and attribution
 
-Updated: 2026-10-22, Asia/Shanghai. This is a **source release candidate**. Original project code and documentation are MIT-licensed by lixiaosdu1858-code; that license does not relicense the third-party assets described below.
+Updated: 2026-10-23, Asia/Shanghai. This is the **v0.2.0 source distribution**. Original project code and documentation are MIT-licensed by lixiaosdu1858-code; that license does not relicense the third-party assets described below.
 
-## Robot and gripper assets in this candidate
+## Robot and gripper assets in this distribution
 
 The 39 STL files in `assets/` are byte-identical copies from the locally frozen [lerobot/unitree-g1-mujoco](https://huggingface.co/lerobot/unitree-g1-mujoco/tree/905111699ef28bdeb1c69c6fe8ada8405e963a48) snapshot, revision `905111699ef28bdeb1c69c6fe8ada8405e963a48`. Per-file source URLs, sizes, and SHA-256 hashes are in [assets/manifest.json](assets/manifest.json). Only meshes referenced by the successful scene are included.
 
@@ -34,4 +34,4 @@ MuJoCo, NumPy and their runtime dependencies are external installed packages, no
 
 ## Publication status
 
-Project documentation and result images have been uploaded to the owner's private repository. This source candidate adds MIT project code, BSD-3-Clause meshes and the local scene-generation instructions. It excludes unresolved XML assets and the old complete local ZIP. No formal public v0.1.0 Release is claimed here.
+The project repository and v0.1.0 release are public. The v0.2.0 materials retain MIT project code, BSD-3-Clause meshes and the local scene-generation instructions, and add demonstration recording and dynamic replay tools with one portable example. The relocated candidate completed a user-observed dynamic replay on the existing local environment; this does not establish fresh installation on another machine. Unresolved XML assets and Python environments remain excluded. Public release status is recorded on the repository's [Releases page](https://github.com/lixiaosdu1858-code/g1-mujoco-pick-place/releases), separately from the local preparation and validation evidence.

@@ -1,0 +1,550 @@
+{
+  "kind": "contact_centered_grasp_candidate",
+  "site": "right_grasp_site",
+  "arm_joint_order": [
+    "right_shoulder_pitch_joint",
+    "right_shoulder_roll_joint",
+    "right_shoulder_yaw_joint",
+    "right_elbow_joint",
+    "right_wrist_roll_joint",
+    "right_wrist_pitch_joint",
+    "right_wrist_yaw_joint"
+  ],
+  "finger_joint_order": [
+    "right_dex1_finger_joint_1",
+    "right_dex1_finger_joint_2"
+  ],
+  "joint_order": [
+    "right_shoulder_pitch_joint",
+    "right_shoulder_roll_joint",
+    "right_shoulder_yaw_joint",
+    "right_elbow_joint",
+    "right_wrist_roll_joint",
+    "right_wrist_pitch_joint",
+    "right_wrist_yaw_joint",
+    "right_dex1_finger_joint_1",
+    "right_dex1_finger_joint_2"
+  ],
+  "joint_qpos_addresses": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "preview_qpos": [
+    -1.0,
+    -0.75,
+    -0.7,
+    1.3,
+    -0.8164297566261165,
+    0.9084809614494671,
+    0.7431010145003519,
+    0.0245,
+    0.0245,
+    0.30488779752892353,
+    -0.39107907626493915,
+    0.7480249223303501,
+    0.9914448613738104,
+    0.0,
+    0.0,
+    -0.13052619222005157
+  ],
+  "preview_pose_id": "A",
+  "poses": [
+    {
+      "q_arm_rad": [
+        -1.0,
+        -0.75,
+        -0.7,
+        1.3,
+        -0.8164297566261165,
+        0.9084809614494671,
+        0.7431010145003519
+      ],
+      "position_world_m": [
+        0.32649645474542904,
+        -0.39241023348476584,
+        0.8458055123058679
+      ],
+      "orientation_wxyz": [
+        0.8361761150778141,
+        0.0701316719588361,
+        0.5327029357136197,
+        -0.11008467397292004
+      ],
+      "orientation_pitch_deg": 65.0,
+      "orientation_yaw_rad": -0.2617993877991494,
+      "min_model_margin_rad": 0.7059490385505329,
+      "min_solver_margin_rad": 0.6759490385505329,
+      "id": "A",
+      "role": "initial",
+      "label": "A: initial",
+      "contacts": [],
+      "unintended_contacts": [],
+      "physics_steps": 0,
+      "cartesian_ik_solved": false
+    },
+    {
+      "q_arm_rad": [
+        -0.7,
+        -0.75,
+        -0.2,
+        1.3,
+        -0.016347571066393254,
+        0.7096638035245388,
+        0.5300931108954253
+      ],
+      "position_world_m": [
+        0.29554099193710537,
+        -0.38857460725480075,
+        0.7689571203617681
+      ],
+      "orientation_wxyz": [
+        0.8361761150778139,
+        0.070131671958836,
+        0.5327029357136195,
+        -0.11008467397291995
+      ],
+      "orientation_pitch_deg": 65.0,
+      "orientation_yaw_rad": -0.2617993877991494,
+      "min_model_margin_rad": 0.7943999999999998,
+      "min_solver_margin_rad": 0.7643999999999997,
+      "id": "B",
+      "role": "grasp",
+      "label": "B: grasp",
+      "contacts": [],
+      "unintended_contacts": [],
+      "physics_steps": 0,
+      "cartesian_ik_solved": false
+    },
+    {
+      "q_arm_rad": [
+        -1.0,
+        -0.45,
+        0.3,
+        1.3,
+        0.7720809259313426,
+        0.8560850793789762,
+        -0.12953870872743548
+      ],
+      "position_world_m": [
+        0.3857603724416464,
+        -0.2407084142886885,
+        0.7838955233437741
+      ],
+      "orientation_wxyz": [
+        0.8361761150778141,
+        0.07013167195883604,
+        0.5327029357136198,
+        -0.11008467397291992
+      ],
+      "orientation_pitch_deg": 65.0,
+      "orientation_yaw_rad": -0.2617993877991494,
+      "min_model_margin_rad": 0.7583449206210239,
+      "min_solver_margin_rad": 0.7283449206210239,
+      "id": "C",
+      "role": "release",
+      "label": "C: release",
+      "contacts": [],
+      "unintended_contacts": [],
+      "physics_steps": 0,
+      "cartesian_ik_solved": false
+    }
+  ],
+  "task_points": [
+    {
+      "q_arm_rad": [
+        -1.0,
+        -0.75,
+        -0.7,
+        1.3,
+        -0.8164297566261165,
+        0.9084809614494671,
+        0.7431010145003519
+      ],
+      "position_world_m": [
+        0.32649645474542904,
+        -0.39241023348476584,
+        0.8458055123058679
+      ],
+      "orientation_wxyz": [
+        0.8361761150778141,
+        0.0701316719588361,
+        0.5327029357136197,
+        -0.11008467397292004
+      ],
+      "orientation_pitch_deg": 65.0,
+      "orientation_yaw_rad": -0.2617993877991494,
+      "min_model_margin_rad": 0.7059490385505329,
+      "min_solver_margin_rad": 0.6759490385505329,
+      "id": "A",
+      "role": "initial",
+      "label": "A: initial",
+      "contacts": [],
+      "unintended_contacts": [],
+      "physics_steps": 0,
+      "cartesian_ik_solved": false
+    },
+    {
+      "q_arm_rad": [
+        -0.7,
+        -0.75,
+        -0.2,
+        1.3,
+        -0.016347571066393254,
+        0.7096638035245388,
+        0.5300931108954253
+      ],
+      "position_world_m": [
+        0.29554099193710537,
+        -0.38857460725480075,
+        0.7689571203617681
+      ],
+      "orientation_wxyz": [
+        0.8361761150778139,
+        0.070131671958836,
+        0.5327029357136195,
+        -0.11008467397291995
+      ],
+      "orientation_pitch_deg": 65.0,
+      "orientation_yaw_rad": -0.2617993877991494,
+      "min_model_margin_rad": 0.7943999999999998,
+      "min_solver_margin_rad": 0.7643999999999997,
+      "id": "B",
+      "role": "grasp",
+      "label": "B: grasp",
+      "contacts": [],
+      "unintended_contacts": [],
+      "physics_steps": 0,
+      "cartesian_ik_solved": false
+    },
+    {
+      "q_arm_rad": [
+        -1.0,
+        -0.45,
+        0.3,
+        1.3,
+        0.7720809259313426,
+        0.8560850793789762,
+        -0.12953870872743548
+      ],
+      "position_world_m": [
+        0.3857603724416464,
+        -0.2407084142886885,
+        0.7838955233437741
+      ],
+      "orientation_wxyz": [
+        0.8361761150778141,
+        0.07013167195883604,
+        0.5327029357136198,
+        -0.11008467397291992
+      ],
+      "orientation_pitch_deg": 65.0,
+      "orientation_yaw_rad": -0.2617993877991494,
+      "min_model_margin_rad": 0.7583449206210239,
+      "min_solver_margin_rad": 0.7283449206210239,
+      "id": "C",
+      "role": "release",
+      "label": "C: release",
+      "contacts": [],
+      "unintended_contacts": [],
+      "physics_steps": 0,
+      "cartesian_ik_solved": false
+    }
+  ],
+  "mesh_files": [
+    {
+      "path": "repos/g1_grasp_assets/assets/dex1_1/meshes/Dex1_base_link.STL",
+      "sha256": "03f1cb02f94d6b280953f6c5a10da2eab6220ea5c301408d3c4decca66c8cdad"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/dex1_1/meshes/Dex1_finger_link_1.STL",
+      "sha256": "7cd2ff199556e3955547a34c75ed9ea777fb7d704fc98e7318d0f67e4aaedf5a"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/dex1_1/meshes/Dex1_finger_link_2.STL",
+      "sha256": "e8297ce8184c64d34d70cd9d6c7b583fba6a3adae2075523e97fb956ada65eb3"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/dex1_1/meshes/dex1_col_1.stl",
+      "sha256": "5edf010f581635fcb4a79fe20cda65a96c95138112ab91d7e79629980f535c92"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/dex1_1/meshes/dex1_col_2.stl",
+      "sha256": "0d791ffb8b438bc4a5fd937eab383db4daa62685a73982e852cc559623036ba9"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/head_link.STL",
+      "sha256": "005fb67fbd3eff94aa8bf4a6e83238174e9f91b6721f7111594322f223724411"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/left_ankle_pitch_link.STL",
+      "sha256": "d49e3abc6f5b12e532062cd575b87b5ef40cd2a3fc18f54a1ca5bba4f773d51d"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/left_ankle_roll_link.STL",
+      "sha256": "c4092af943141d4d9f74232f3cfa345afc6565f46a077793b8ae0e68b39dc33f"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/left_elbow_link.STL",
+      "sha256": "fa752198accd104d5c4c3a01382e45165b944fbbc5acce085059223324e5bed3"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/left_hip_pitch_link.STL",
+      "sha256": "4725168105ee768ee31638ef22b53f6be2d7641bfd7cfefe803488d884776fa4"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/left_hip_roll_link.STL",
+      "sha256": "91f25922ee8a7c3152790051bebad17b4d9cd243569c38fe340285ff93a97acf"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/left_hip_yaw_link.STL",
+      "sha256": "a16d88aa6ddac8083aa7ad55ed317bea44b1fa003d314fba88965b7ed0f3b55b"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/left_knee_link.STL",
+      "sha256": "8d92b9e3d3a636761150bb8025e32514c4602b91c7028d523ee42b3e632de477"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/left_shoulder_pitch_link.STL",
+      "sha256": "f0d1cfd02fcf0d42f95e678eeca33da3afbcc366ffba5c052847773ec4f31d52"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/left_shoulder_roll_link.STL",
+      "sha256": "fb9df21687773522598dc384f1a2945c7519f11cbc8bd372a49170316d6eee88"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/left_shoulder_yaw_link.STL",
+      "sha256": "1aa97e9748e924336567992181f78c7cd0652fd52a4afcca3df6b2ef6f9e712e"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/left_wrist_pitch_link.STL",
+      "sha256": "b251d8e05047f695d0f536cd78c11973cfa4e78d08cfe82759336cc3471de3a9"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/left_wrist_roll_link.STL",
+      "sha256": "edc387c9a0ba8c2237e9b296d32531426fabeb6f53e58df45c76106bca74148c"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/left_wrist_yaw_link.STL",
+      "sha256": "83f8fb3a726bf9613d65dd14f0f447cb918c3c95b3938042a0c9c09749267d3b"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/logo_link.STL",
+      "sha256": "8571a0a19bc4916fa55f91449f51d5fdefd751000054865a842449429d5f155b"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/pelvis.STL",
+      "sha256": "5ba6bbc888e630550140d3c26763f10206da8c8bd30ed886b8ede41c61f57a31"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/pelvis_contour_link.STL",
+      "sha256": "5cc5c2c7a312329e3feeb2b03d3fc09fc29705bd01864f6767e51be959662420"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/right_ankle_pitch_link.STL",
+      "sha256": "15be426539ec1be70246d4d82a168806db64a41301af8b35c197a33348c787a9"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/right_ankle_roll_link.STL",
+      "sha256": "4b66222ea56653e627711b56d0a8949b4920da5df091da0ceb343f54e884e3a5"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/right_elbow_link.STL",
+      "sha256": "1be925d7aa268bb8fddf5362b9173066890c7d32092c05638608126e59d1e2ab"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/right_hip_pitch_link.STL",
+      "sha256": "e4f3c99d7f4a7d34eadbef9461fc66e3486cb5442db1ec50c86317d459f1a9c6"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/right_hip_roll_link.STL",
+      "sha256": "4c254ef66a356f492947f360dd931965477b631e3fcc841f91ccc46d945d54f6"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/right_hip_yaw_link.STL",
+      "sha256": "e479c2936ca2057e9eb2f7dff6c189b7419d7b8484dea0b298cbb36a2a6aa668"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/right_knee_link.STL",
+      "sha256": "63c4008449c9bbe701a6e2b557b7a252e90cf3a5abcf54cee46862b9a69f8ec8"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/right_shoulder_pitch_link.STL",
+      "sha256": "24cdb387e0128dfe602770a81c56cdce3a0181d34d039a11d1aaf8819b7b8c02"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/right_shoulder_roll_link.STL",
+      "sha256": "962b97c48f9ce9e8399f45dd9522e0865d19aa9fd299406b2d475a8fc4a53e81"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/right_shoulder_yaw_link.STL",
+      "sha256": "a0b76489271da0c72461a344c9ffb0f0c6e64f019ea5014c1624886c442a2fe5"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/right_wrist_pitch_link.STL",
+      "sha256": "d22f8f3b3127f15a63e5be1ee273cd5075786c3142f1c3d9f76cbf43d2a26477"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/right_wrist_roll_link.STL",
+      "sha256": "a7ee9212ff5b94d6cb7f52bb1bbf3f352194d5b598acff74f4c77d340c5b344f"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/right_wrist_yaw_link.STL",
+      "sha256": "bc9dece2d12509707e0057ba2e48df8f3d56db0c79410212963a25e8a50f61a6"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/torso_link.STL",
+      "sha256": "e96d023f0368a4e3450b86ca5d4f10227d8141156a373e7da8cb3c93266523e0"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/waist_roll_link.STL",
+      "sha256": "34f0aa73f41131230be4d25876c944fdf6c24d62553f199ff8b980c15e8913df"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/waist_support_link.STL",
+      "sha256": "1fae9e1bb609848a1667d32eed8d6083ae443538a306843056a2a660f1b2926a"
+    },
+    {
+      "path": "repos/g1_grasp_assets/assets/meshes/waist_yaw_link.STL",
+      "sha256": "2883f20e03f09b669b5b4ce10677ee6b5191c0934b584d7cbaef2d0662856ffb"
+    }
+  ],
+  "scene_sha256": "9d71754df03ab06c4fbed3010ef9a883ce71a3e6ca04de01815d7d1c7ca2630c",
+  "asset_manifest_sha256": "54854e136670624bc5b49c26548e467c5c7be605da30281f83c39fc0acc8895d",
+  "static_preview_checks_passed": true,
+  "cartesian_ik_recovery_verified": false,
+  "continuous_path_verified": false,
+  "dynamics_verified": false,
+  "grasp_validated": false,
+  "layout_accepted_for_control": false,
+  "minimum_required_physical_joint_margin_rad": 0.2,
+  "tray_outer_table_margin_m": 0.009469900031456008,
+  "camera": {
+    "lookat": [
+      0.23,
+      -0.25,
+      0.83
+    ],
+    "distance": 1.5,
+    "azimuth": 125,
+    "elevation": -25
+  },
+  "table": {
+    "top_z_m": 0.7280249223303501,
+    "center_xy_m": [
+      0.367497487781194,
+      -0.29964597978188307
+    ],
+    "top_half_size_xy_m": [
+      0.1326096902522705,
+      0.16143309648305612
+    ]
+  },
+  "cube": {
+    "body": "task_cube",
+    "joint": "task_cube_free",
+    "geom": "task_cube_geom",
+    "side_m": 0.04,
+    "mass_kg": 0.035,
+    "initial_center_world_m": [
+      0.30488779752892353,
+      -0.39107907626493915,
+      0.7480249223303501
+    ],
+    "initial_orientation_wxyz": [
+      0.9914448613738104,
+      0.0,
+      0.0,
+      -0.13052619222005157
+    ]
+  },
+  "tray": {
+    "body": "task_tray",
+    "center_xy_m": [
+      0.39510717803346457,
+      -0.24321288329882687
+    ],
+    "orientation_wxyz": [
+      0.9914448613738104,
+      0.0,
+      0.0,
+      -0.13052619222005157
+    ],
+    "interior_half_size_xy_m": [
+      0.07,
+      0.07
+    ],
+    "floor_top_z_m": 0.7360249223303501,
+    "wall_top_z_m": 0.7660249223303501
+  },
+  "proposed_grasp_relation": {
+    "tcp_minus_cube_center_world_m": [
+      -0.009346805591818164,
+      0.0025044690101383993,
+      0.020932198031417992
+    ],
+    "status": "Static contact-centering candidate; physical hold and lift untested."
+  },
+  "proposed_release_gap_m": 0.006938402982005994,
+  "layout_translation_world_m": [
+    0.00934680559181815,
+    -0.0025044690101383754,
+    -0.015932198031417932
+  ],
+  "source_scene": "provenance:reachable_design_preparation_20261016_171414_001599/scene.xml",
+  "source_scene_sha256": "70b1396b2abc1bc32865f7a811cac556728a50a95d714dc1c1fc908d350c9acc",
+  "contact_centering_static_prepared": true,
+  "static_scope": "Approach and lift only; no transport/release/dynamics validation.",
+  "centered_grasp_contact_onset": {
+    "onset_q_m": [
+      -0.0029384173852154164,
+      -0.002938417225522699
+    ],
+    "contacts": [
+      {
+        "finger": 0,
+        "distance_m": -1.000000007710154e-06,
+        "position_cube_m": [
+          6.389673417574269e-05,
+          -0.01999949999999609,
+          2.979638445888e-05
+        ],
+        "position_world_m": [
+          0.29977326554215256,
+          -0.41041364751952814,
+          0.748054718714809
+        ]
+      },
+      {
+        "finger": 1,
+        "distance_m": -1.0001596864568233e-06,
+        "position_cube_m": [
+          6.389729629396358e-05,
+          0.019999499920156795,
+          2.979495061572468e-05
+        ],
+        "position_world_m": [
+          0.31012576904950684,
+          -0.371777580616405,
+          0.7480547172809658
+        ]
+      }
+    ],
+    "midpoint_in_cube_m": [
+      6.389701523485313e-05,
+      -3.991964744876064e-11,
+      2.979566753730234e-05
+    ],
+    "max_abs_side_center_xz_m": 6.389729629396358e-05,
+    "side_center_xz_separation_m": 1.540091909047843e-09,
+    "min_finger_table_gap_m": 0.018977849246267664,
+    "unexpected_contacts": [],
+    "force_semantics": "No static overlap force is treated as physical grip evidence."
+  }
+}

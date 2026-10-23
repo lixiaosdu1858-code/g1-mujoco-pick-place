@@ -1,0 +1,250 @@
+{
+  "schema": "g1.portable_example.v0.2.0",
+  "demonstration_id": "demonstration_user_20261023_113143_694_d01c01",
+  "saved_replay_id": "replay_user_20261023_114617_265_105da2",
+  "original_episode_index_sha256": "1b88ffa6a5e323af9e38051c49b15cd1822a9487275a336184decaf56eb1bf9c",
+  "original_demonstration_summary_sha256": "c53a84300e39bb39d070c76b71b7ac99e4bed0cb3f8c551e231087aa5ef2cb41",
+  "original_replay_summary_sha256": "6aa82224294fe112025fe200e279061df1cc081184850bbfee14dbc61f03fb68",
+  "references_sha256": "7ed4c3082857a00ab620e1d2dd153e04e006584c5450b22480ed1b048f1208dc",
+  "action_count": 15560,
+  "state_count": 15561,
+  "files": {
+    "demonstration/actions.jsonl": {
+      "bytes": 505472,
+      "sha256": "99fc30fad48d7b6d45b5c4b9a2eb093a8314b514aa96e759f9a79c8e2df29f6c"
+    },
+    "demonstration/assets/manifest.json": {
+      "bytes": 28266,
+      "sha256": "f6976fe149098b6dbfd757a8aae2f9412b131b20343364e9bb86fd3d646e0c56"
+    },
+    "demonstration/assets/vfs_map.json": {
+      "bytes": 3011,
+      "sha256": "99c0abc067079e75905176a74766b356027dc54d0689453856538669da69dd86"
+    },
+    "demonstration/collection_code/collect_episode.py": {
+      "bytes": 13147,
+      "sha256": "0bf31e8ad4b08c6db5d0ba1e91f6b0446e9a668016892dbbaa885b05859c66a5"
+    },
+    "demonstration/collection_code/episode_schema.py": {
+      "bytes": 25644,
+      "sha256": "903037bc1f8912148509d14aa3ad9fbf77a75181e00a7baca5c2064c48954537"
+    },
+    "demonstration/collection_code/episode_state.py": {
+      "bytes": 4927,
+      "sha256": "eb4d71c3dab74d62f6960597a7fea1f495fbf2aa3e2f75bc65916d76557cd711"
+    },
+    "demonstration/command_references/0055.json": {
+      "bytes": 523419,
+      "sha256": "17cba74961ace275acb41422111bc62eb8915cb575dd5bfbdd1a0686c892343b"
+    },
+    "demonstration/command_references/0253.json": {
+      "bytes": 521260,
+      "sha256": "d23466c248c38f7f3ca8d3db5511f717aac4a891f87152164f88d4af20a7e391"
+    },
+    "demonstration/configs/accepted_baseline.json": {
+      "bytes": 809,
+      "sha256": "5f710296f86b1e9a489b293408678e63ee7ac39b2183a9c59f0c22485f3625fa"
+    },
+    "demonstration/configs/config.json": {
+      "bytes": 17074,
+      "sha256": "b10ed31e180b4535dbd7663b7cdc5f46ec9446bd195b5556bc2bf9f439824ce2"
+    },
+    "demonstration/configs/dependency_versions.json": {
+      "bytes": 253,
+      "sha256": "9a03940fa113aafa0dd137710c54132623a2cb64875234499ad0f57dae6815df"
+    },
+    "demonstration/configs/frozen_context.json": {
+      "bytes": 5407,
+      "sha256": "279452b061f35ea4fde6c5e0a5f7bccae27e537ac7475b7e0814f1f0a9dd0daf"
+    },
+    "demonstration/configs/keyboard_anchor.json": {
+      "bytes": 2548,
+      "sha256": "8a79353a724c7173d6da7da3f9e14987988fb0c1097c4e425cf8a464bc6b4efb"
+    },
+    "demonstration/configs/plot_source_equivalence.json": {
+      "bytes": 747,
+      "sha256": "41464fef8cb72dc56d90d013ebad52594c84de3debb61f5b9da2b4ba4f54d4a6"
+    },
+    "demonstration/configs/reference.json": {
+      "bytes": 7901470,
+      "sha256": "d8de6bf01b4d5c90de07c2e71566649952d187b476182098cebad7a649233aeb"
+    },
+    "demonstration/configs/runtime_integrity.json": {
+      "bytes": 8456,
+      "sha256": "59da1d5e730bebbf3339058c47274a5f14805a7001d831b88d72bd4ac4109aaa"
+    },
+    "demonstration/configs/source_equivalence.json": {
+      "bytes": 7181,
+      "sha256": "e162fdab203eee239728dc9a060c5bb2818dc3519289794aa047216a103a359d"
+    },
+    "demonstration/configs/static_baseline.json": {
+      "bytes": 82949,
+      "sha256": "928326ab164fc71b18e60b63f214f098f865e0f3bccc2f422016a198b6cfc9c3"
+    },
+    "demonstration/events.jsonl": {
+      "bytes": 413132,
+      "sha256": "45bfaae549498de755325b77d34b2dad10b3cdd145512b958fa6f3f37839b62d"
+    },
+    "demonstration/field-semantics.json": {
+      "bytes": 1259,
+      "sha256": "b6ed24fe8bd51a4473c298b2a239fa4e3cee62e9c39cfc2ae716699bd317452d"
+    },
+    "demonstration/initialization.json": {
+      "bytes": 8762,
+      "sha256": "7743a280bc723b7e5231422de3e1bc65e7ba362753d62a9122c5a83f51541b1d"
+    },
+    "demonstration/jog_references.jsonl": {
+      "bytes": 6416887,
+      "sha256": "47dac51f6981785e3bb940007ac69843410b2d826146fff90dfaaf5decccd9b7"
+    },
+    "demonstration/manual.csv": {
+      "bytes": 50862104,
+      "sha256": "ca5d4053ec796c5179dfc2d5e2850dba8b66e995774c09b6e2b89cf1cae836a7"
+    },
+    "demonstration/manual_initialization.json": {
+      "bytes": 942,
+      "sha256": "05715e0f3abbef87d33eef6b30ba99dd17a9db0dd5cc9498e6ab40a8f57710b5"
+    },
+    "demonstration/runtime/build_elbow_scene.py": {
+      "bytes": 17486,
+      "sha256": "81a477999a84138b6e40b86f9cde6d5b3887a540489b02818da47ce5db25dd7c"
+    },
+    "demonstration/runtime/build_shoulder_elbow_scene.py": {
+      "bytes": 15650,
+      "sha256": "4ac66933fa3d42a3cd39e797c9b1584a403c508ff6b8d4ac5c51b3d0d5793b3a"
+    },
+    "demonstration/runtime/carry_route.py": {
+      "bytes": 18584,
+      "sha256": "001b07ed4215c7f15a1e675a63eaccd6c36e2068c7907324d5132aa684e3464b"
+    },
+    "demonstration/runtime/carry_runtime.py": {
+      "bytes": 35217,
+      "sha256": "ea1cf9fef6ccad27569f59cfa7ccfa2550692fa82022c7f99036a47bef0cdd66"
+    },
+    "demonstration/runtime/carry_to_tray.py": {
+      "bytes": 10588,
+      "sha256": "6b0d00b2d0289f8385d09b279ee372b49b39fbcbe0109196c7c0ce935d4c47a7"
+    },
+    "demonstration/runtime/cartesian_keyboard.py": {
+      "bytes": 32827,
+      "sha256": "210d1b3b04a128d5a834084ffa707ba632784e061edf663fdb9170b13859e7a2"
+    },
+    "demonstration/runtime/cartesian_keyboard_target.py": {
+      "bytes": 26407,
+      "sha256": "4eac37383ddee5c63d848e988683ff3ebec4efb7167aa3f798d092ccddc2b707"
+    },
+    "demonstration/runtime/centered_grasp_lift.py": {
+      "bytes": 9137,
+      "sha256": "d2efe01fd7b61c16204d0717b7039a6bfc771c5c5dc1f5d11c7933bd2a8a0597"
+    },
+    "demonstration/runtime/grasp_contact_geometry.py": {
+      "bytes": 14784,
+      "sha256": "1b7fc0f9c693d9ce553ec59fee7bca3648ff3fc9d2d6b5bb1a3140f882973698"
+    },
+    "demonstration/runtime/grasp_lift.py": {
+      "bytes": 25900,
+      "sha256": "e67c78380949e4e770e9d45d61ec722fdd2a1b3cc5ad979975b3642312c2ab6b"
+    },
+    "demonstration/runtime/grasp_solver_compare.py": {
+      "bytes": 12221,
+      "sha256": "34afb69d22b91550b2221ccee804ea63ba20fd907804771cacc291d0bc108400"
+    },
+    "demonstration/runtime/grasp_solver_runtime.py": {
+      "bytes": 17142,
+      "sha256": "89ec954720fb8fb2079ea15a0b3dc480795270b2e441eaeaf7e090d73d191eda"
+    },
+    "demonstration/runtime/ik_bounded_step.py": {
+      "bytes": 16847,
+      "sha256": "149c618ca2e9228fb70cb134b648b0ad26e5f336103550e7e1cc44a6b1d6c1fb"
+    },
+    "demonstration/runtime/ik_seed_compare.py": {
+      "bytes": 25614,
+      "sha256": "19dc8cd1ef655dba5562b73ece656ec95937a2236a29e4b621a1fced823ab565"
+    },
+    "demonstration/runtime/lesson_common.py": {
+      "bytes": 1394,
+      "sha256": "2271bdef3e9f91311745e24f38a7731a6c5e9bcdb9da91c9b57835cbcc01e29a"
+    },
+    "demonstration/runtime/manual_jog_input.py": {
+      "bytes": 5173,
+      "sha256": "29b8c0dc97a99302130118d7f5b49066eb00bb1ed8160d1c0c3652720478e34b"
+    },
+    "demonstration/runtime/manual_pickplace.py": {
+      "bytes": 43718,
+      "sha256": "126c96746adc10daa3c7d4d9288e7e4232d46d401f1421d35f4c6fad1c5f0a67"
+    },
+    "demonstration/runtime/manual_task_checks.py": {
+      "bytes": 18869,
+      "sha256": "947533f8b34c3f63d5c54195905723775a72364b9608f8695345e1a72671310e"
+    },
+    "demonstration/runtime/manual_task_observer.py": {
+      "bytes": 15639,
+      "sha256": "711adb0c7e2badd02d4fcc1d3e0ff77401641a81a0a4afdd6b560f336b4c298a"
+    },
+    "demonstration/runtime/manual_task_target.py": {
+      "bytes": 25779,
+      "sha256": "7fa550c02914af872e55bb659b3df60c5eb0fefdc90fd3191747bc970280abdb"
+    },
+    "demonstration/runtime/package_runtime.py": {
+      "bytes": 5942,
+      "sha256": "8708d10eef3095d85a1e114c239f4fc5fab539ae06e989dac00948fd8ded40fe"
+    },
+    "demonstration/runtime/pickplace_layout_preview.py": {
+      "bytes": 14024,
+      "sha256": "4f0131ab191560908207a5f2f3ff8d6b192a85c272448465739c75118c636ebe"
+    },
+    "demonstration/runtime/plot_manual_task.py": {
+      "bytes": 17159,
+      "sha256": "c0c481b8ffb6894c307e06dbbb643bd88d0fbf07cd65239bd5d96464058d4911"
+    },
+    "demonstration/runtime/reachable_motion.py": {
+      "bytes": 23636,
+      "sha256": "e71ffe3d283fc178cf574db3bb7093fbc0739dda1664ad6fc89efc6d6c8702bf"
+    },
+    "demonstration/runtime/reachable_pose_preview.py": {
+      "bytes": 15317,
+      "sha256": "598bcb68d0b171a842d6d0417244fd57dd555fd707f29954d0634f94f78de7eb"
+    },
+    "demonstration/summary.json": {
+      "bytes": 588009,
+      "sha256": "c958f7c858abf805bd8d35a20509ecb54e127ffca528984111d7c1989280d47d"
+    },
+    "saved-replay/manual.csv": {
+      "bytes": 50863511,
+      "sha256": "28fa8fd46973c48912a12980a666ea69bc5fec2811585bde9490e92807c8461b"
+    },
+    "saved-replay/replay_code/episode_state.py": {
+      "bytes": 4927,
+      "sha256": "eb4d71c3dab74d62f6960597a7fea1f495fbf2aa3e2f75bc65916d76557cd711"
+    },
+    "saved-replay/replay_code/inspect_episode.py": {
+      "bytes": 12762,
+      "sha256": "236ccf490875fb715a9ecd50f1d3d196537b726d91e408dc057288da6abddaa2"
+    },
+    "saved-replay/replay_episode.py": {
+      "bytes": 31934,
+      "sha256": "60f31228321961e19e76ff830740460253803821ba0fc843eaa9bc547909ff77"
+    },
+    "saved-replay/summary.json": {
+      "bytes": 15320,
+      "sha256": "e46f3a3dc20935935dfe34870b0f6e05f5830396152bfb8e534d125329a5fc14"
+    }
+  },
+  "external_files": {
+    "demonstration/configs/scene.xml": {
+      "package_path": "configs/scene.xml",
+      "sha256": "9d71754df03ab06c4fbed3010ef9a883ce71a3e6ca04de01815d7d1c7ca2630c"
+    }
+  },
+  "metadata_changes": [
+    "demonstration/summary.json:executable",
+    "demonstration/summary.json:temp",
+    "saved-replay/summary.json:source_run",
+    "saved-replay/summary.json:episode_index",
+    "saved-replay/summary.json:source_summary_sha256",
+    "saved-replay/summary.json:executable",
+    "saved-replay/summary.json:source_files_sha256.summary.json"
+  ],
+  "data_policy": "CSV, state, action, initialization and snapshot bytes unchanged. Only listed environment/locator metadata derived. This bundle is historical evidence, not a new replay.",
+  "historical_snapshot_policy": "Snapshot code is provenance and is never imported by package entries. Historical asset-review status does not replace top-level licenses."
+}

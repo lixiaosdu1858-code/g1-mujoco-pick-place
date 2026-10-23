@@ -6,4 +6,4 @@
 - 派生场景 `assets/scene.xml` 与 `configs/scene.xml` 的来源许可缺项尚未闭合。源码发布材料不包含这两份文件，也不包含上游两个输入 XML。使用者提供指定本地输入后，原创生成器可重建已验证场景；生成过程不会改变上游许可状态，也不赋予场景 MIT 许可。
 - 软件依赖分别遵循自身许可证；本目录不分发 Python 环境或第三方软件二进制。
 
-当前材料是源码候选，v0.1.0 Release 尚未创建；本地成功运行与正式公开发行分别记录。原始成功记录和先前本地完整候选 ZIP 保留不变，该 ZIP 不属于本次上传材料。许可追溯见 [第三方声明](THIRD_PARTY_NOTICES.md)。
+v0.1.0 已公开发布。v0.2.0 源码材料已完成本机异目录入口的用户动力学回放核验，见[包验证](docs/package-verification.md)；公开发布状态以仓库的 [Releases](https://github.com/lixiaosdu1858-code/g1-mujoco-pick-place/releases) 为准。随包示例不含 XML：原始 CSV 保持字节不变；为迁移而改写的路径及元数据列入来源映射，不能冒充原件。`Prepare-Example.ps1` 只在本地输出中补入哈希匹配的生成场景。许可追溯见 [第三方声明](THIRD_PARTY_NOTICES.md)。

@@ -1,0 +1,31 @@
+{
+  "q_ref9": [
+    -0.7024653553213133,
+    -0.5730631094387038,
+    -0.6941401030898114,
+    0.6755982153407619,
+    -1.0554993590673116,
+    1.1128062836247814,
+    1.1653887890399983,
+    0.0245,
+    0.0245
+  ],
+  "position_world_m": [
+    0.29554099193710537,
+    -0.38857460725480075,
+    0.8439571203617681
+  ],
+  "orientation_wxyz": [
+    0.8361761150778139,
+    0.070131671958836,
+    0.5327029357136195,
+    -0.11008467397291995
+  ],
+  "source_summary": "configs/accepted_baseline.json",
+  "source_summary_sha256": "5f710296f86b1e9a489b293408678e63ee7ac39b2183a9c59f0c22485f3625fa",
+  "source_scene_sha256": "9d71754df03ab06c4fbed3010ef9a883ce71a3e6ca04de01815d7d1c7ca2630c",
+  "source_config_sha256": "b10ed31e180b4535dbd7663b7cdc5f46ec9446bd195b5556bc2bf9f439824ce2",
+  "kind": "new_lesson_initialization_B_plus_75mm_world_Z",
+  "physics_steps": 0,
+  "initialization_is_not_executed_movement": true
+}

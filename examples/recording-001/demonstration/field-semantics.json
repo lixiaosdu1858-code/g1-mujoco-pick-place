@@ -1,0 +1,13 @@
+{
+  "state_action_timing": "row k measures s_k and controller reference for [k*dt,(k+1)*dt); terminal N has no action",
+  "joint_order": "configs/config.json joint_order; first seven rad/rad_s, fingers m/m_s",
+  "tool_orientation": "actual_quat_wxyz: unit quaternion, site frame in world",
+  "cube_orientation": "cube_quat_wxyz: free-body unit quaternion in world",
+  "tool_velocity": "actual_*_velocity_world_xyz: site origin linear m/s, angular rad/s, world axes",
+  "cube_velocity": "cube_linear_velocity_world_xyz m/s; cube_angular_velocity_local_xyz rad/s in cube local axes",
+  "full_state": "qpos includes free-body quaternion; qvel is generalized velocity and is not componentwise qpos derivative",
+  "input_events": "events.jsonl: polled input transitions and discrete receive/process; received wall clock distinct from processing sim_s",
+  "actions": "actions.jsonl: pre-request software context, requests/rejections and accepted segment intervals; repeated toggle intents resolve to explicit states; post-commit targets are not pre-action observations",
+  "planned_vs_executed": "accepted end is planned exclusive endpoint; only 0..N-1 pre-step rows were executed",
+  "gripper_position": "finger joint coordinate, not total jaw width"
+}

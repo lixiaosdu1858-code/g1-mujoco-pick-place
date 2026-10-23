@@ -32,7 +32,7 @@ $env:PYTHONDONTWRITEBYTECODE='1'; $env:PYTHONIOENCODING='utf-8'
   --receipt '.\outputs\scene-generation.json'
 if ($LASTEXITCODE -ne 0) { throw 'Scene preparation failed; do not continue.' }
 Copy-Item -LiteralPath '.\configs\scene.xml' -Destination '.\assets\scene.xml'
-.\Run.ps1 -Python $g1Python -Inspect
+.\Collect-Demonstration.ps1 -Python $g1Python -Inspect
 ```
 
 成功生成的场景为33,755字节，SHA-256必须为：
@@ -41,6 +41,6 @@ Copy-Item -LiteralPath '.\configs\scene.xml' -Destination '.\assets\scene.xml'
 9d71754df03ab06c4fbed3010ef9a883ce71a3e6ca04de01815d7d1c7ca2630c
 ```
 
-已实际核对生成结果与先前成功候选的两份场景逐字节相同，见[生成证据](../evidence/scene-generation.json)。这是原场景的字节重建，不是新抓放试验。已有用户完整抓放证据见[候选入口验证](candidate-user-verification.md)。
+v0.1 阶段已核对生成结果与先前成功候选的两份场景逐字节相同，见[生成证据](../evidence/scene-generation.json)。v0.2 仍要求相同场景哈希。生成场景后可从根目录 `Prepare-Example.ps1` 准备现有示例，无需重新人工采集。生成检查与新候选包动态验收分别记录，见[包验证](package-verification.md)。
 
 两个生成场景及 `upstream/` 已列入 `.gitignore`，源码打包工具也明确排除它们。GitHub网页上传不会根据本地 `.gitignore` 自动替你排除文件，因此不要把含本地输入/生成场景的工作目录整包拖入。生成步骤不改变输入和输出的上游许可边界。

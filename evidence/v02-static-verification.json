@@ -1,0 +1,82 @@
+{
+  "schema": "g1.v02_candidate_static_audit",
+  "status": "passed_static_only",
+  "new_physics_steps": 0,
+  "new_windows": 0,
+  "new_candidate_dynamic_replay": false,
+  "python_ast_parsed_files": 70,
+  "runtime_files_identical_to_v01": 25,
+  "changed_config_files": [
+    "runtime_integrity.json"
+  ],
+  "source_originals_unchanged": 56,
+  "collector_static_sample_fields": 180,
+  "saved_csv_columns": 197,
+  "sample_count_note": "The dynamic writer adds 17 reference/timing/terminal columns after sampling.",
+  "initial_measurement_max_difference": 0,
+  "replay_initialization": {
+    "status": "verified_exactly",
+    "initialization_sha256": "7743a280bc723b7e5231422de3e1bc65e7ba362753d62a9122c5a83f51541b1d",
+    "state_spec": 8191,
+    "integration_state_size": 305,
+    "maximum_absolute_differences": {
+      "integration_state": 0.0,
+      "qpos": 0.0,
+      "qvel": 0.0,
+      "ctrl": 0.0,
+      "qacc_warmstart": 0.0
+    },
+    "software_exact_match": true,
+    "physical_state_source": "fresh_frozen_package_setup_verified_against_recorded_full_state",
+    "software_transition": "manual waiting_start verified; replay enters settling when started; no old task labels restored"
+  },
+  "state_count": 15561,
+  "action_count": 15560,
+  "dt_s": 0.004,
+  "existing_data_position_metrics_exact_match": true,
+  "existing_data_orientation_metrics_exact_match": true,
+  "plot_visual_check": "Both saved PNGs readable; all panels and legends present. No new trajectory generated.",
+  "tests": {
+    "passed": 29,
+    "failed": 0,
+    "skipped": 0,
+    "new_physics_steps": 0
+  },
+  "evidence_hashes": {
+    "outputs/demonstration_inspect_20261023_182221_167_0581fe/summary.json": "74fd682282b082704797d53d154cb509f46d0ac0432a0be6a44827a4e9aefa41",
+    "outputs/replay_inspect_20261023_182347_886_44e27c/summary.json": "6a9e5aecb7f3c18d69ff7c6fb0cba4affe5680b72eef7183d43bc6a40e558307",
+    "outputs/test_portable_20261023_182348_230413_806c9c/tests.json": "fbd8a083bcddecb84493eb1338a7fcc9781619e4fad82ba5ba1b5bf36cfbac64",
+    "outputs/example_20261023_182253_454_24119f/demonstration/episode/episode-index.json": "8dfc596fd2a55bccf5f6933a041dffa7f54949d220664320d23a00c91cbc4750",
+    "outputs/example_20261023_182253_454_24119f/saved-replay/comparison_20261023_182450_382880_7f252d/comparison.json": "24c264c9e7e9091f15df51de03ad2690ff545b3ed679e5894c2c4ad21fad4cb6",
+    "outputs/example_20261023_182253_454_24119f/saved-replay/orientation_20261023_182456_979317_db3f3f/orientation.json": "7463259c4308d7555f2a62ed6f3811a2660ed36373a23981fdfcd99567473fa2",
+    "outputs/example_20261023_182253_454_24119f/materialization.json": "107bec7b0e5a35245c8df6139a59f78bf1436881aa4200b7d0caba1ac2f203ec"
+  },
+  "runtime_sha256": {
+    "runtime/build_elbow_scene.py": "81a477999a84138b6e40b86f9cde6d5b3887a540489b02818da47ce5db25dd7c",
+    "runtime/build_shoulder_elbow_scene.py": "4ac66933fa3d42a3cd39e797c9b1584a403c508ff6b8d4ac5c51b3d0d5793b3a",
+    "runtime/carry_route.py": "001b07ed4215c7f15a1e675a63eaccd6c36e2068c7907324d5132aa684e3464b",
+    "runtime/carry_runtime.py": "ea1cf9fef6ccad27569f59cfa7ccfa2550692fa82022c7f99036a47bef0cdd66",
+    "runtime/carry_to_tray.py": "6b0d00b2d0289f8385d09b279ee372b49b39fbcbe0109196c7c0ce935d4c47a7",
+    "runtime/cartesian_keyboard.py": "210d1b3b04a128d5a834084ffa707ba632784e061edf663fdb9170b13859e7a2",
+    "runtime/cartesian_keyboard_target.py": "4eac37383ddee5c63d848e988683ff3ebec4efb7167aa3f798d092ccddc2b707",
+    "runtime/centered_grasp_lift.py": "d2efe01fd7b61c16204d0717b7039a6bfc771c5c5dc1f5d11c7933bd2a8a0597",
+    "runtime/grasp_contact_geometry.py": "1b7fc0f9c693d9ce553ec59fee7bca3648ff3fc9d2d6b5bb1a3140f882973698",
+    "runtime/grasp_lift.py": "e67c78380949e4e770e9d45d61ec722fdd2a1b3cc5ad979975b3642312c2ab6b",
+    "runtime/grasp_solver_compare.py": "34afb69d22b91550b2221ccee804ea63ba20fd907804771cacc291d0bc108400",
+    "runtime/grasp_solver_runtime.py": "89ec954720fb8fb2079ea15a0b3dc480795270b2e441eaeaf7e090d73d191eda",
+    "runtime/ik_bounded_step.py": "149c618ca2e9228fb70cb134b648b0ad26e5f336103550e7e1cc44a6b1d6c1fb",
+    "runtime/ik_seed_compare.py": "19dc8cd1ef655dba5562b73ece656ec95937a2236a29e4b621a1fced823ab565",
+    "runtime/lesson_common.py": "2271bdef3e9f91311745e24f38a7731a6c5e9bcdb9da91c9b57835cbcc01e29a",
+    "runtime/manual_jog_input.py": "29b8c0dc97a99302130118d7f5b49066eb00bb1ed8160d1c0c3652720478e34b",
+    "runtime/manual_pickplace.py": "126c96746adc10daa3c7d4d9288e7e4232d46d401f1421d35f4c6fad1c5f0a67",
+    "runtime/manual_task_checks.py": "947533f8b34c3f63d5c54195905723775a72364b9608f8695345e1a72671310e",
+    "runtime/manual_task_observer.py": "711adb0c7e2badd02d4fcc1d3e0ff77401641a81a0a4afdd6b560f336b4c298a",
+    "runtime/manual_task_target.py": "7fa550c02914af872e55bb659b3df60c5eb0fefdc90fd3191747bc970280abdb",
+    "runtime/package_runtime.py": "8708d10eef3095d85a1e114c239f4fc5fab539ae06e989dac00948fd8ded40fe",
+    "runtime/pickplace_layout_preview.py": "4f0131ab191560908207a5f2f3ff8d6b192a85c272448465739c75118c636ebe",
+    "runtime/plot_manual_task.py": "c0c481b8ffb6894c307e06dbbb643bd88d0fbf07cd65239bd5d96464058d4911",
+    "runtime/reachable_motion.py": "e71ffe3d283fc178cf574db3bb7093fbc0739dda1664ad6fc89efc6d6c8702bf",
+    "runtime/reachable_pose_preview.py": "598bcb68d0b171a842d6d0417244fd57dd555fd707f29954d0634f94f78de7eb"
+  },
+  "limitation": "Same local isolated environment; only static and saved-record checks. New-directory dynamic replay remains for user; no other-PC clean install."
+}
